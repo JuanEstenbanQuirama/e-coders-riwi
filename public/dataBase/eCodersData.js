@@ -1,5 +1,6 @@
-let dataBaseEcoders = [
+export let dataBaseEcoders = [
     {
+        id: 1,
         name: "Toribio",
         lastName: "Santa",
         email: "torisanta@gmail.com",
@@ -9,6 +10,6 @@ let dataBaseEcoders = [
         skills: ["php, nodejs, sql, java, javascript"],
         ageExperience: 3,
         idioms: ["English", "french", "Spanish"],
-        userImage: "https://picsum.photos/200"
+        // userImage: "https://picsum.photos/200"
     }
 ]
