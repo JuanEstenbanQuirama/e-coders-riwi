@@ -52,3 +52,24 @@ export const dataBaseEcoders = [
         // userImage: "https://picsum.photos/200"
     }
 ]
+
+export const dataBaseContratctors = [
+    {
+        id: 1,
+        isName: "entrerpise",
+        industry: "Santa",
+        email: "torisanta@gmail.com",
+        country: "peru",
+        contact: 3976893091,
+        // userImage: "https://picsum.photos/200"
+    },
+    {
+        id: 1,
+        isName: "elefante blanco",
+        industry: "Santa",
+        email: "torisanta@gmail.com",
+        country: "peru",
+        contact: 3976893091,
+        // userImage: "https://picsum.photos/200"
+    },
+]
