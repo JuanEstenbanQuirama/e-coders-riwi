@@ -3,7 +3,6 @@ import * as bootstrap from 'bootstrap' // Import all of Bootstrap's JS
 import { genericMessageAlert } from './alerts';
 import {dataBaseContratctors as defaultDataBaseContratctors } from '../../public/dataBase/eCodersData';
 
-let dataBaseContratctors = JSON.parse(localStorage.getItem('users')) || defaultDataBaseContratctors // compara la inicial con la agregada a ver cual tiene mas info
 
 const form = document.getElementById('form');
 const isName = document.getElementById('name');
@@ -12,6 +11,11 @@ const email = document.getElementById('email');
 const country = document.getElementById('country')
 const contact = document.getElementById('contact')
 // const userImage = document.getElementById('user-image')
+
+const URL = 'http://localhost:3000/authContractors'
+
+let dataBaseContratctors = JSON.parse(localStorage.getItem('users')) || defaultDataBaseContratctors // compara la inicial con la agregada a ver cual tiene mas info
+
 console.log(defaultDataBaseContratctors);
 function register(event, isName, insdustry, email, country, contact, dataBaseContratctors) {
     event.preventDefault();

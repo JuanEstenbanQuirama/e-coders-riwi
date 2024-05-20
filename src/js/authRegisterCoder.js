@@ -3,7 +3,6 @@ import * as bootstrap from 'bootstrap' // Import all of Bootstrap's JS
 import { genericMessageAlert } from './alerts';
 import { dataBaseEcoders as defaultDataBaseEcoders } from '../../public/dataBase/eCodersData';
 
-let dataBaseEcoders = JSON.parse(localStorage.getItem('users')) || defaultDataBaseEcoders // compara la inicial con la agregada a ver cual tiene mas info
 
 const form = document.getElementById('form');
 const isName = document.getElementById('name');
@@ -17,6 +16,10 @@ const ageExperience = document.getElementById('age')
 const idioms = document.getElementById('idioms')
 // const userImage = document.getElementById('user-image')
 console.log(dataBaseEcoders);
+
+const URL = 'http://localhost:3000/authCoders'
+let dataBaseEcoders = JSON.parse(localStorage.getItem('users')) || defaultDataBaseEcoders // compara la inicial con la agregada a ver cual tiene mas info
+
 
 function register(event, isName, lastName, email, country, phone, core, skills, ageExperience, idioms, dataBaseEcoders) {
     event.preventDefault();
