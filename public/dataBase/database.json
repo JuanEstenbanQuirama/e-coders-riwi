@@ -1,52 +1,179 @@
 {
-    "authCoders": [
-        {
-            "id": 1,
-            "isName": "Toribio",
-            "lastName": "Santa",
-            "email": "torisanta@gmail.com",
-            "country": "peru",
-            "phone": 3976893091,
-            "core": "back",
-            "skills": ["php, nodejs, sql, java, javascript"],
-            "ageExperience": 3,
-            "idioms": ["English", "french", "Spanish"],
-            "userImage": "https://picsum.photos/200"
-        },
-        {
-            "id": 1,
-            "isName": "Toribio",
-            "lastName": "Santa",
-            "email": "torisanta@gmail.com",
-            "country": "peru",
-            "phone": 3976893091,
-            "core": "back",
-            "skills": ["php, nodejs, sql, java, javascript"],
-            "ageExperience": 3,
-            "idioms": ["English", "french", "Spanish"],
-            "userImage": "https://picsum.photos/200"
-        }
-
-    ],
-    "authContractors": [
-        {
-            "id": 1,
-            "isName": "entrerpise",
-            "industry": "Santa",
-            "email": "torisanta@gmail.com",
-            "country": "peru",
-            "contact": 3976893091,
-            "userImage": "https://picsum.photos/200"
-        },
-        {
-            "id": 1,
-            "isName": "entrerpise",
-            "industry": "Santa",
-            "email": "torisanta@gmail.com",
-            "country": "peru",
-            "contact": 3976893091,
-            "userImage": "https://picsum.photos/200"
-        }
-
-    ]
+  "authCoders": [
+    {
+      "id": "59c3",
+      "coderName": "Toribio",
+      "coderLastName": "Santa",
+      "coderEmail": "torisanta@gmail.com",
+      "coderCountry": "peru",
+      "coderPhone": 3976893091,
+      "coderCore": "back",
+      "coderSkills": [
+        "php, nodejs, sql, java, javascript"
+      ],
+      "coderAgeExperience": 3
+    },
+    {
+      "id": "4a1d",
+      "coderName": "",
+      "coderLastName": "",
+      "coderEmail": "",
+      "coderCountry": "",
+      "coderPhone": "",
+      "coderCore": "",
+      "coderSkills": "",
+      "coderAgeExperience": ""
+    },
+    {
+      "id": "dd0a",
+      "coderName": "",
+      "coderLastName": "",
+      "coderEmail": "",
+      "coderCountry": "",
+      "coderPhone": "",
+      "coderCore": "",
+      "coderSkills": "",
+      "coderAgeExperience": ""
+    },
+    {
+      "id": "a5ee",
+      "coderName": "",
+      "coderLastName": "",
+      "coderEmail": "",
+      "coderCountry": "",
+      "coderPhone": "",
+      "coderCore": "",
+      "coderSkills": "",
+      "coderAgeExperience": ""
+    },
+    {
+      "id": "ca88",
+      "coderName": "",
+      "coderLastName": "",
+      "coderEmail": "",
+      "coderCountry": "",
+      "coderPhone": "",
+      "coderCore": "",
+      "coderSkills": "",
+      "coderAgeExperience": ""
+    },
+    {
+      "id": "9156",
+      "coderName": "",
+      "coderLastName": "",
+      "coderEmail": "",
+      "coderCountry": "",
+      "coderPhone": "",
+      "coderCore": "",
+      "coderSkills": "",
+      "coderAgeExperience": ""
+    },
+    {
+      "id": "f5fc",
+      "coderName": "",
+      "coderLastName": "",
+      "coderEmail": "",
+      "coderCountry": "",
+      "coderPhone": "",
+      "coderCore": "",
+      "coderSkills": "",
+      "coderAgeExperience": ""
+    },
+    {
+      "id": "8644",
+      "coderName": "",
+      "coderLastName": "",
+      "coderEmail": "",
+      "coderCountry": "",
+      "coderPhone": "",
+      "coderCore": "",
+      "coderSkills": "",
+      "coderAgeExperience": ""
+    },
+    {
+      "id": "4e4d",
+      "coderName": "",
+      "coderLastName": "",
+      "coderEmail": "",
+      "coderCountry": "",
+      "coderPhone": "",
+      "coderCore": "",
+      "coderSkills": "",
+      "coderAgeExperience": ""
+    }
+  ],
+  "authContractors": [
+    {
+      "userName": "entrerpise",
+      "industry": "Santa",
+      "userEmail": "torisanta@gmail.com",
+      "userCountry": "peru",
+      "userContact": 3976893091,
+      "id": "1d68"
+    },
+    {
+      "id": "cc42",
+      "userName": "",
+      "industry": "",
+      "userEmail": "",
+      "userCountry": "",
+      "userContact": ""
+    },
+    {
+      "id": "df27",
+      "userName": "",
+      "industry": "",
+      "userEmail": "",
+      "userCountry": "",
+      "userContact": ""
+    },
+    {
+      "id": "1257",
+      "userName": "",
+      "industry": "",
+      "userEmail": "",
+      "userCountry": "",
+      "userContact": ""
+    },
+    {
+      "id": "900b",
+      "userName": "",
+      "industry": "",
+      "userEmail": "",
+      "userCountry": "",
+      "userContact": ""
+    },
+    {
+      "id": "193c",
+      "userName": "",
+      "industry": "",
+      "userEmail": "",
+      "userCountry": "",
+      "userContact": ""
+    },
+    {
+      "id": "ee45",
+      "userName": "",
+      "industry": "",
+      "userEmail": "",
+      "userCountry": "",
+      "userContact": ""
+    },
+    {
+      "id": "1158",
+      "userName": "",
+      "industry": "",
+      "userEmail": "",
+      "userCountry": "",
+      "userContact": ""
+    },
+    {
+      "id": "c34e",
+      "userName": "",
+      "industry": "",
+      "userEmail": "",
+      "userCountry": "",
+      "userContact": ""
+    }
+  ]
 }

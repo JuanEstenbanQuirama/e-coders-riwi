@@ -1,7 +1,6 @@
 import '../styles/styles.scss' // Import our custom CSS
 import * as bootstrap from 'bootstrap' // Import all of Bootstrap's JS
 import { genericMessageAlert } from './alerts';
-import { dataBaseEcoders as defaultDataBaseEcoders } from '../../public/dataBase/eCodersData';
 
 const formCoder = document.getElementById('form-coder');
 const coderName = document.getElementById('name');
@@ -20,50 +19,27 @@ const userEmail = document.getElementById('email');
 const userCountry = document.getElementById('country')
 const userContact = document.getElementById('contact')
 
-
-
-// let dataBaseEcoders = JSON.parse(localStorage.getItem('users')) || defaultDataBaseEcoders // compara la inicial con la agregada a ver cual tiene mas info
-// console.log(dataBaseEcoders);
-
-
-// function register(event, isName, lastName, email, country, phone, core, skills, ageExperience, dataBaseEcoders) {
-//     event.preventDefault();
-//     if (form.checkValidity()) {
-//         const newUser = {
-//             id: Date.now(),
-//             isName: isName.value,
-//             lastName: lastName.value,
-//             email: email.value,
-//             country: country.value,
-//             phone: phone.value,
-//             core: core.value,
-//             skills: skills.value,
-//             ageExperience: ageExperience.value,
-//         }
-//         dataBaseEcoders.push(newUser)
-//         localStorage.setItem('users', JSON.stringify(dataBaseEcoders)) // agregar base de datos a la memoria del navegador (tener los datos 'globales)
-//         genericMessageAlert('user saved')
-//         form.reset();
-//         form.classList.add("is-invalid");
-//     } else {
-//         console.log("mostrar campos que no estan válidos");
-//         form.classList.add("was-validated");
-//     }
-// }
-
-
 const URLCODERS = 'http://localhost:3000/authCoders'
-const URLUSERS = 'http://localhost:3000/authCoders'
+const URLUSERS = 'http://localhost:3000/authContractors'
 
 
-// Probando los endpoints 
-async function getData () {
-    const res = await fetch(URLCODERS)
-    const data = await res.json()
-    console.log(data);
-    return data
-}
+// escuchar el boton sumbit del formulario coders
+// formCoder.addEventListener('submit', async function (event) {
+//     event.preventDefault()
+//     await registerCoder(coderName, coderLastName, coderEmail, coderCountry, coderPhone, coderCore, coderSkills, coderAgeExperience)
+//     await getData()
+// })
 
+// escuchar el boton sumbit del formulario users
+formUser.addEventListener('submit', async function (event) {
+    event.preventDefault()
+    await registerUser(userName, industry, userEmail, userCountry, userContact)
+    await getData()
+})
+
+
+
+// Registrar coder
 async function registerCoder ( coderName, coderLastName, coderEmail, coderCountry, coderPhone, coderCore, coderSkills, coderAgeExperience) {
     const newCoder = {
         coderName: coderName.value,
@@ -75,7 +51,6 @@ async function registerCoder ( coderName, coderLastName, coderEmail, coderCountr
         coderSkills: coderSkills.value,
         coderAgeExperience: coderAgeExperience.value,
     }
-
     await fetch(URLCODERS, {
         method: "POST",
         headers: {
@@ -85,13 +60,7 @@ async function registerCoder ( coderName, coderLastName, coderEmail, coderCountr
     })
 }
 
-formCoder.addEventListener('submit', async function (event) {
-    event.preventDefault()
-    await registerCoder(coderName, coderLastName, coderEmail, coderCountry, coderPhone, coderCore, coderSkills, coderAgeExperience)
-    // await getData()
-})
-
-
+// Registrar contractor
 async function registerUser ( userName, industry, userEmail, userCountry, userContact) {
     const newUser = {
         userName: userName.value,
@@ -100,7 +69,6 @@ async function registerUser ( userName, industry, userEmail, userCountry, userCo
         userCountry: userCountry.value,
         userContact: userContact.value
     }
-
     await fetch(URLUSERS, {
         method: "POST",
         headers: {
@@ -110,8 +78,13 @@ async function registerUser ( userName, industry, userEmail, userCountry, userCo
     })
 }
 
-formUser.addEventListener('submit', async function (event) {
-    event.preventDefault()
-    await registerUser(userName, industry, userEmail, userCountry, userContact)
-    // await getData()
-})
+// Probando los endpoints 
+async function getData () {
+    const res = await fetch(URLCODERS)
+    const data = await res.json()
+    const res1 = await fetch(URLUSERS)
+    const data1 = await res1.json()
+    console.log(data);
+    console.log(data1);
+    return data
+}
