@@ -1,6 +1,5 @@
 import '../styles/styles.scss' 
 import * as bootstrap from 'bootstrap' 
-import {dataBaseContratctors as defaultDataBaseContratctors } from '../../public/dataBase/eCodersData';
 
 let name = document.getElementById("name")
 let industry = document.getElementById("industry")
@@ -9,14 +8,31 @@ let country = document.getElementById("country")
 let contact = document.getElementById("contact")
 let url = "http://localhost:3000/authContractors"
 
-let emailContractor = Number(prompt("Ingrese su email"))
 
 
+let data = []
 async function contractorUbication(){
-    let response = await fetch(url)
-    let data = await response.json()
-    let contractorUbicationArray = data.findIndex(contractor => contractor.email==emailContractor)
-    console.log(contractorUbicationArray)
+    let emailContractor = String(prompt("Ingrese su email"))
+    let response = await fetch(`${url}?email=${emailContractor}`)
+    data = await response.json()
+    if(data.length===1){
+        return data
+    }
+    else{
+        alert("Este correo no existe por favor registrese")
+        return false
+    }
 }
 
-contractorUbication(id)
+let infoChangeContractor = contractorUbication()
+
+async function informationPlacement(data){
+    name.value = data?.isName
+    industry.value = data?.industry
+    email.value = data?.email
+    country.value = data?.country
+    contact.value = data?.contact
+}
+informationPlacement(data)
+
+
