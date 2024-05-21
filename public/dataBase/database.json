@@ -24,33 +24,6 @@
       "userCountry": "peru",
       "userContact": 3976893091,
       "passwordUser": "1234"
-    },
-    {
-      "id": "eadc",
-      "userName": "qwqwe",
-      "industry": "qweqw",
-      "userEmail": "qweqw@qweqweq",
-      "userCountry": "qweqw",
-      "userContact": "2e12",
-      "passwordUser": "1234"
-    },
-    {
-      "id": "d709",
-      "userName": "",
-      "industry": "",
-      "userEmail": "qweqw@qweqw",
-      "userCountry": "",
-      "userContact": "",
-      "passwordUser": ""
-    },
-    {
-      "id": "da3d",
-      "userName": "",
-      "industry": "",
-      "userEmail": "qweqqw@qweqw",
-      "userCountry": "",
-      "userContact": "",
-      "passwordUser": "12"
     }
   ]
 }

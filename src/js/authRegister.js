@@ -74,7 +74,7 @@ if (formUser) { // verifica en qué html estoy
   });
 }
 
-// Registrar coder
+// Register coder
 async function registerCoder(
   coderName,
   coderLastName,
@@ -106,7 +106,7 @@ async function registerCoder(
   });
 }
 
-// Registrar contractor
+// Register contractor
 async function registerUser(
   userName,
   industry,
@@ -143,6 +143,7 @@ async function getData() {
   return data;
 }
 
+// Validate email coder
 async function checkEmail(coderEmail) {
   const res = await fetch(
     `http://localhost:3000/authCoders?coderEmail=${coderEmail.value}`
@@ -156,6 +157,7 @@ async function checkEmail(coderEmail) {
   }
 }
 
+// Validate email user
 async function checkEmailUser(userEmail) {
   const res = await fetch(
     `http://localhost:3000/authContractors?userEmail=${userEmail.value}`
@@ -169,6 +171,7 @@ async function checkEmailUser(userEmail) {
   }
 }
 
+// Validate password
 function checkPasswords(password, confirmPassword) {
   if (password.value === confirmPassword.value) {
     return true;
