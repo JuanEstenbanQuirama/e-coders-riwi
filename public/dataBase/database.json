@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "authCoders": [
         {
             "id": 1,
@@ -49,4 +50,33 @@
         }
 
     ]
+=======
+  "authCoders": [
+    {
+      "id": "59c3",
+      "coderName": "Toribio",
+      "coderLastName": "Santa",
+      "coderEmail": "torisanta@gmail.com",
+      "coderCountry": "peru",
+      "coderPhone": 3976893091,
+      "coderCore": "back",
+      "coderSkills": [
+        "php, nodejs, sql, java, javascript"
+      ],
+      "coderAgeExperience": 3,
+      "password": "1234"
+    }
+  ],
+  "authContractors": [
+    {
+      "id": "1d68",
+      "userName": "entrerpise",
+      "industry": "Santa",
+      "userEmail": "torisanta@gmail.com",
+      "userCountry": "peru",
+      "userContact": 3976893091,
+      "passwordUser": "1234"
+    }
+  ]
+>>>>>>> e986262d6784b549b4223db9e85ee5d4e90ad2e1
 }
