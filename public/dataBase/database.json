@@ -11,169 +11,46 @@
       "coderSkills": [
         "php, nodejs, sql, java, javascript"
       ],
-      "coderAgeExperience": 3
-    },
-    {
-      "id": "4a1d",
-      "coderName": "",
-      "coderLastName": "",
-      "coderEmail": "",
-      "coderCountry": "",
-      "coderPhone": "",
-      "coderCore": "",
-      "coderSkills": "",
-      "coderAgeExperience": ""
-    },
-    {
-      "id": "dd0a",
-      "coderName": "",
-      "coderLastName": "",
-      "coderEmail": "",
-      "coderCountry": "",
-      "coderPhone": "",
-      "coderCore": "",
-      "coderSkills": "",
-      "coderAgeExperience": ""
-    },
-    {
-      "id": "a5ee",
-      "coderName": "",
-      "coderLastName": "",
-      "coderEmail": "",
-      "coderCountry": "",
-      "coderPhone": "",
-      "coderCore": "",
-      "coderSkills": "",
-      "coderAgeExperience": ""
-    },
-    {
-      "id": "ca88",
-      "coderName": "",
-      "coderLastName": "",
-      "coderEmail": "",
-      "coderCountry": "",
-      "coderPhone": "",
-      "coderCore": "",
-      "coderSkills": "",
-      "coderAgeExperience": ""
-    },
-    {
-      "id": "9156",
-      "coderName": "",
-      "coderLastName": "",
-      "coderEmail": "",
-      "coderCountry": "",
-      "coderPhone": "",
-      "coderCore": "",
-      "coderSkills": "",
-      "coderAgeExperience": ""
-    },
-    {
-      "id": "f5fc",
-      "coderName": "",
-      "coderLastName": "",
-      "coderEmail": "",
-      "coderCountry": "",
-      "coderPhone": "",
-      "coderCore": "",
-      "coderSkills": "",
-      "coderAgeExperience": ""
-    },
-    {
-      "id": "8644",
-      "coderName": "",
-      "coderLastName": "",
-      "coderEmail": "",
-      "coderCountry": "",
-      "coderPhone": "",
-      "coderCore": "",
-      "coderSkills": "",
-      "coderAgeExperience": ""
-    },
-    {
-      "id": "4e4d",
-      "coderName": "",
-      "coderLastName": "",
-      "coderEmail": "",
-      "coderCountry": "",
-      "coderPhone": "",
-      "coderCore": "",
-      "coderSkills": "",
-      "coderAgeExperience": ""
+      "coderAgeExperience": 3,
+      "password": "1234"
     }
   ],
   "authContractors": [
     {
+      "id": "1d68",
       "userName": "entrerpise",
       "industry": "Santa",
       "userEmail": "torisanta@gmail.com",
       "userCountry": "peru",
       "userContact": 3976893091,
-      "id": "1d68"
+      "passwordUser": "1234"
     },
     {
-      "id": "cc42",
-      "userName": "",
-      "industry": "",
-      "userEmail": "",
-      "userCountry": "",
-      "userContact": ""
+      "id": "eadc",
+      "userName": "qwqwe",
+      "industry": "qweqw",
+      "userEmail": "qweqw@qweqweq",
+      "userCountry": "qweqw",
+      "userContact": "2e12",
+      "passwordUser": "1234"
     },
     {
-      "id": "df27",
+      "id": "d709",
       "userName": "",
       "industry": "",
-      "userEmail": "",
+      "userEmail": "qweqw@qweqw",
       "userCountry": "",
-      "userContact": ""
+      "userContact": "",
+      "passwordUser": ""
     },
     {
-      "id": "1257",
+      "id": "da3d",
       "userName": "",
       "industry": "",
-      "userEmail": "",
+      "userEmail": "qweqqw@qweqw",
       "userCountry": "",
-      "userContact": ""
-    },
-    {
-      "id": "900b",
-      "userName": "",
-      "industry": "",
-      "userEmail": "",
-      "userCountry": "",
-      "userContact": ""
-    },
-    {
-      "id": "193c",
-      "userName": "",
-      "industry": "",
-      "userEmail": "",
-      "userCountry": "",
-      "userContact": ""
-    },
-    {
-      "id": "ee45",
-      "userName": "",
-      "industry": "",
-      "userEmail": "",
-      "userCountry": "",
-      "userContact": ""
-    },
-    {
-      "id": "1158",
-      "userName": "",
-      "industry": "",
-      "userEmail": "",
-      "userCountry": "",
-      "userContact": ""
-    },
-    {
-      "id": "c34e",
-      "userName": "",
-      "industry": "",
-      "userEmail": "",
-      "userCountry": "",
-      "userContact": ""
+      "userContact": "",
+      "passwordUser": "12"
     }
   ]
 }
