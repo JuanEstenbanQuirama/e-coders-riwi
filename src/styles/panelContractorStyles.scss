@@ -1,0 +1,26 @@
+@import url(./normalize.scss);
+
+
+:root {
+    --basic-color1: #6675F7;
+    --basic-color2: #57007b;
+}
+
+.button-submit {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+}
+
+.input {
+    border: 1px solid white !important;
+}
+
+.form-floating{
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    padding: 3px;
+    border-radius: 10px;
+}
+
+section {
+    max-width: 1100px;
+    margin: 0 auto;
+}
