@@ -17,6 +17,7 @@
   <meta name="robots" content="index,follow" />
   <meta name="googlebot" content="index,follow" />
   <meta name="revisit-after" content="15days" />
+  <link rel="stylesheet" href="./src/styles/liss.scss">
   <title>e-coders</title>
 </head>
 
@@ -28,95 +29,101 @@
   <main id="main">
 
     <section id="heroAction">
-      <article id="title" class="justify-">
-        <h1 class="fw-bolder fs-1">Find your ideal <span> freelance </span>service
-        </h1>
-        <h3 class="fw-lighter">Do you want to find a way to make your projects a reality and decide how much to pay for
-          them?
-          Welcome to E-Coder.</h3>
+      <article id="title">
+        <h1 class="fw-bolder fs-1">Find your ideal <span> Freelance </span>service </h1>
+        <p class="fw-lighter">Do you want to find a way to make your projects a reality and decide how much to pay for
+          them? Welcome to E-Coder.</p>
         <button type="button" class="btn btn-primary">Let's get started</button>
       </article>
-      <article id="img">
+      <figure id="img">
         <img src="./public/img/portada.webp" alt="" width="600px">
-      </article>
+      </figure>
     </section>
 
 
 
 
 
-    <section id="secund" class="mb-6">
+    <section class="secund mb-6 ">
       <article class="subtitle">
         <h2 class="text-center">About us</h2>
-      </article >
-      <article id="cards" class="container mt-3">
+      </article>
+      <article class="d-flex cards">
         <div class="row ">
-          <div class="col-sm-3 mb-3 mb-sm-0 px-4">
+          <div class="mb-sm-0 ">
             <div class="card">
               <div class="card-body">
-                <img src="./public/img/icon1.webp" class=" mt-1 px-1" alt="icon1" width="45px">
+                <img src="./public/img/icon1.webp" alt="icon1" width="45px">
                 <h5 class="card-title">Are you a freelancer?</h5>
                 <p class="card-text text-body-tertiary">Did you study and don't know where to start?
                   You can sign up and start looking for job offers from companies that match your needs.</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="row">
-            <div class="col-sm-3 ">
-              <div class="card">
-                <div class="card-body">
-                  <img src="./public/img/icon2.webp" class=" mt-1 px-1" alt="icon1" width="45px">
-                  <h5 class="card-title">Who are we?</h5>
-                  <p class="card-text text-body-tertiary">We are a company that aims to connect freelancers with
-                    businesses from anywhere in the
-                    world.</p>
-                </div>
+
+
+        <div class="row">
+          <div>
+            <div class="card">
+              <div class="card-body">
+                <img src="./public/img/icon2.webp" class=" mt-1 px-1" alt="icon1" width="45px">
+                <h5 class="card-title"><span>Who are we?</span></h5>
+                <p class="card-text text-body-tertiary">We are a company that aims to connect freelancers with
+                  businesses from anywhere in the
+                  world.</p>
               </div>
             </div>
+          </div>
+        </div>
 
-            <div class="row">
-              <div class="col-sm-3 ">
-                <div class="card">
-                  <div class="card-body">
-                    <img src="./public/img/icon3.webp" class=" mt-1 px-1" alt="icon1" width="45px">
-                    <h5 class="card-title">Are you a business?</h5>
-                    <p class="card-text text-body-tertiary">You can sign up to apply as a company and find the talent
-                      you
-                      need. and therefore find
-                      the people who will make you achieve your goals faster.</p>
-                  </div>
-                </div>
+
+        <div class="row">
+          <div class="">
+            <div class="card">
+              <div class="card-body">
+                <img src="./public/img/icon3.webp" class=" mt-1 px-1" alt="icon1" width="45px">
+                <h5 class="card-title">Are you a business?</h5>
+                <p class="card-text text-body-tertiary">You can sign up to apply as a company and find the talent
+                  you
+                  need. and therefore find
+                  the people who will make you achieve your goals faster.</p>
               </div>
+            </div>
+          </div>
+        </div>
+
       </article>
     </section>
 
-    <section id="cards2" class="subtitle">
+    <section id="cards2" class="subtitle secund">
       <article>
         <h2 class="text-center">What makes us different?</h2>
       </article>
-      <article>
-        <div class="card" style="width: 18rem;">
+      
+      <article class="cards">
+        <div class="card row" style="width: 18rem;">
           <div class="card-body">
-            <h3>Adjustable budget</h3>
+            <h5>Adjustable budget</h5>
             <p class="card-text">Stick to your budget .
               Find the right service for every price level. No hourly rates, only project-based fees.</p>
           </div>
         </div>
-      </article>
-      <article>
-        <div class="card" style="width: 18rem;">
+
+
+        <div class="card row" style="width: 18rem;">
           <div class="card-body">
-            <h3>Employability</h3>
+            <h5>Employability</h5>
             <p class="card-text">Get quality work quickly.
               Hand over your project to a talented professional in minutes and achieve lasting results.</p>
           </div>
         </div>
-      </article>
-      <article>
-        <div class="card" style="width: 18rem;">
+
+
+        <div class="card row" style="width: 18rem;">
           <div class="card-body">
-            <h3>Security</h3>
+            <h5>Security</h5>
             <p class="card-text">
               Upfront quotes to avoid surprises.
               Payments are only released when you approve them. 24/7 support available.</p>

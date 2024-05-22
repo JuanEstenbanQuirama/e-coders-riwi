@@ -1,0 +1,74 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Commissioner:wght@100..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Merienda:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yeseva+One&display=swap');
+
+#main {
+    font-family: ubuntu;
+    background-color: #F5F5F5;
+}
+
+#heroAction {
+    display: flex;
+    padding: 0px 80px;
+    margin:  0 50px;
+}
+
+#heroAction article {
+    padding: 50px;
+}
+
+#heroAction h1 {
+    font-size: 50px !important;
+}
+
+#heroAction span {
+    color: #325fff;
+}
+
+#heroAction p {
+    margin: 3rem 0px 3rem 0px;
+}
+
+.subtitle {
+    margin-top: 100px;
+}
+
+.secund{
+    background: #f9f9ff;
+
+}
+
+.secund h2 {
+    padding: 20px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.cards {
+    padding: 0px 100px;
+    margin: 40px;
+    gap: 40px;
+    background: #f9f9ff;
+}
+
+.cards .row{
+    padding: 0px 20px 40px 20px;
+    .card {
+        border: 1px solid #325fff;
+    }
+}
+
+.cards span {
+    color: #325fff;
+}
+
+#cards p {
+    margin-bottom: 50px;
+}
+
+.cards h5 {
+    margin: 20px 0px;
+}
+
+#cards2 {
+}
