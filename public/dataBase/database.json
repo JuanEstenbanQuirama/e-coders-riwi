@@ -1,56 +1,4 @@
 {
-<<<<<<< HEAD
-    "authCoders": [
-        {
-            "id": 1,
-            "isName": "Toribio",
-            "lastName": "Santa",
-            "email": "torisanta@gmail.com",
-            "country": "peru",
-            "phone": 3976893091,
-            "core": "back",
-            "skills": ["php, nodejs, sql, java, javascript"],
-            "ageExperience": 3,
-            "idioms": ["English", "french", "Spanish"],
-            "userImage": "https://picsum.photos/200"
-        },
-        {
-            "id": 1,
-            "isName": "Toribio",
-            "lastName": "Santa",
-            "email": "torisanta@gmail.com",
-            "country": "peru",
-            "phone": 3976893091,
-            "core": "back",
-            "skills": ["php, nodejs, sql, java, javascript"],
-            "ageExperience": 3,
-            "idioms": ["English", "french", "Spanish"],
-            "userImage": "https://picsum.photos/200"
-        }
-
-    ],
-    "authContractors": [
-        {
-            "id": 1,
-            "isName": "entrerpise",
-            "industry": "Santa",
-            "email": "torisanta@gmail.com",
-            "country": "peru",
-            "contact": 3976893091,
-            "userImage": "https://picsum.photos/200"
-        },
-        {
-            "id": 1,
-            "isName": "entrerpise",
-            "industry": "Santa",
-            "email": "torisanta1@gmail.com",
-            "country": "peru",
-            "contact": 3976893091,
-            "userImage": "https://picsum.photos/200"
-        }
-
-    ]
-=======
   "authCoders": [
     {
       "id": "59c3",
@@ -78,5 +26,4 @@
       "passwordUser": "1234"
     }
   ]
->>>>>>> e986262d6784b549b4223db9e85ee5d4e90ad2e1
 }
