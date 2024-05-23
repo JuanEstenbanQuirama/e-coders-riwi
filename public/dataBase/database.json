@@ -16,15 +16,17 @@
     },
     {
       "id": "233f",
-      "coderName": "juan",
-      "coderLastName": "juan",
-      "coderEmail": "juan@juan",
-      "coderCountry": "juan",
+      "coderName": "Mateo",
+      "coderLastName": "el teo",
+      "coderEmail": "matew@juan",
+      "coderCountry": "nowere",
       "coderPhone": "123",
-      "coderCore": "juan",
-      "coderSkills": "juan",
-      "coderAgeExperience": "12",
-      "password": "juan"
+      "coderCore": "1234",
+      "coderSkills": [
+        "php, nodejs, sql, java, javascript"
+      ],
+      "coderAgeExperience": "2",
+      "password": "1234"
     }
   ],
   "authContractors": [
@@ -36,24 +38,6 @@
       "userCountry": "peru",
       "userContact": 3976893091,
       "passwordUser": "1234"
-    },
-    {
-      "id": "c8ef",
-      "userName": "q",
-      "industry": "q",
-      "userEmail": "q@qqq",
-      "userCountry": "q",
-      "userContact": "1",
-      "passwordUser": "q"
-    },
-    {
-      "id": "2b27",
-      "userName": "qw",
-      "industry": "qw",
-      "userEmail": "qwqw@qw",
-      "userCountry": "qw",
-      "userContact": "12",
-      "passwordUser": "qw"
     }
   ]
 }
