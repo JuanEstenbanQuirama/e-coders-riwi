@@ -16,7 +16,7 @@ formLoginCoder.addEventListener("submit", async (e) => {
   if (coder === false) {
     console.log("coder no registrado");
   } else {
-    if (coder.passwordUser === password.value) {
+    if (coder.password === password.value) {
       console.log("welcome");
       localStorage.setItem("userOnline", JSON.stringify(coder));
       window.location.href = "./dashboard.html";

@@ -1,3 +1,30 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Commissioner:wght@100..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Merienda:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yeseva+One&display=swap');
+=======
+
+:root {
+    --basic-color1: #6675F7;
+    --basic-color2: #57007b;
+}
+
+.button-login {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    color: white;
+    padding: 5px 40px;
+}
+
+.navbar-nav-home {
+    width: 90%;
+}
+
+.navbar-nav-home-btn {
+    width: 45%;
+}
+
+.button-register {
+    border: 2px solid #57007b;
+    padding: 5px 40px;
+}
+>>>>>>> 0a06a7696e3f94f1461cc8bbf011294a3fa72db5

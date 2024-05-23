@@ -13,6 +13,20 @@
       ],
       "coderAgeExperience": 3,
       "password": "1234"
+    },
+    {
+      "id": "233f",
+      "coderName": "Mateo",
+      "coderLastName": "el teo",
+      "coderEmail": "matew@juan",
+      "coderCountry": "nowere",
+      "coderPhone": "123",
+      "coderCore": "1234",
+      "coderSkills": [
+        "php, nodejs, sql, java, javascript"
+      ],
+      "coderAgeExperience": "2",
+      "password": "1234"
     }
   ],
   "authContractors": [
@@ -20,7 +34,7 @@
       "id": "1d68",
       "userName": "entrerpise",
       "industry": "Santa",
-      "userEmail": "torisanta@gmail.com",
+      "userEmail": "entrerpise@gmail.com",
       "userCountry": "peru",
       "userContact": 3976893091,
       "passwordUser": "1234"
