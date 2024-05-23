@@ -24,3 +24,27 @@
     border: 2px solid #57007b;
     padding: 5px 40px;
 }
+
+
+
+.footer-section {
+    // border: 1px solid gold;    
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+.footer-items {
+    display: flex;
+    // border: 1px solid tomato;
+    gap: 3rem;
+}
+
+.redes {
+    margin-right: 70px;
+    height: 25vh;
+    align-items: center;
+ 
+    
+}
+
