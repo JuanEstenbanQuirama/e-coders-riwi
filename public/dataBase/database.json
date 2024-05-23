@@ -32,11 +32,20 @@
   "authContractors": [
     {
       "id": "1d68",
-      "userName": "1",
+      "userName": "1fdsfasdfasfdafdafdAAAAAAAAAAAAAAAAAAAAAAAAAA",
       "industry": "Santana1",
       "userEmail": "entrerpise@gmail.com",
       "userCountry": "peru",
       "userContact": "3976893091",
+      "passwordUser": "1234"
+    },
+    {
+      "id": "5e91",
+      "userName": "pedro",
+      "industry": "aguacates",
+      "userEmail": "1@gmail.com",
+      "userCountry": "amaga",
+      "userContact": "3",
       "passwordUser": "1234"
     }
   ]

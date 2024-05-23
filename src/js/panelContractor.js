@@ -12,8 +12,6 @@ let userEmailLS = localStorage.getItem("userOnline")
 userEmailLS = JSON.parse(userEmailLS)
 let form = document.getElementsByTagName("form")
 
-
-
 function getUser() {
     const data = localStorage.getItem('userOnline')
     let data1 = JSON.parse(data)
@@ -69,7 +67,6 @@ async function newInformation(name, industry, email, country, contact, password,
 }
 
 form[0].addEventListener("submit", (event) => {
-    newInformation(name, industry, email, country, contact, password, confirmPassword)
-    event.preventDefault()
-
+        newInformation(name, industry, email, country, contact, password, confirmPassword)
+        event.preventDefault()
 })
