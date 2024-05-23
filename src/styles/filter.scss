@@ -1,0 +1,95 @@
+/* Importación de el archvio normalize y de los iconos de bootstrap */
+@import url(./normalize.scss);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+body {
+    text-align: center;
+    background-color: #f5f8ff;
+}
+
+#search-input {
+    margin: 1.5rem 0rem;
+}
+
+#search-container input {
+    border: none;
+    background-color: transparent;
+    width: 30%;
+    border-bottom: 2px solid #110f29;
+    padding: 1rem 0.3rem;
+}
+
+button {
+    cursor: pointer !important;
+}
+
+#search-container input:focus {
+    outline: none;
+    border-bottom-color: #6759ff;
+}
+
+#search-container button {
+    padding: 1rem 2rem;
+    background-color: #6759ff;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+
+.button-tag {
+    border: 2px solid #6759ff;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #6759ff;
+}
+
+.active {
+    background-color: #6759ff;
+    color: #ffffff;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #ffffff;
+    max-width: 18rem;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 1rem;
+    box-shadow: 9px 12px 15px 9px rgba(0,0,0,0.1);
+    cursor: pointer;
+    /* transition:  2s ease; */
+}
+
+.card:hover {
+    /* transition:  2s ease; */
+    width: 350px;
+    height: 370px;
+}
+
+img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+    border-radius: 10px;
+}
+
+.container {
+    padding-top: 1em;
+    color: #110f29;
+}
+
+.container h5 {
+    font-weight: 500;
+}

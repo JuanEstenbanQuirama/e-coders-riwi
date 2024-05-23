@@ -1,16 +1,52 @@
 <!-- Aqui el filtro -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <h1>Dashboard</h1>
-    </header>
-    <button id="btn-logout" class="btn btn-info">logut</button>
-    <script type="module" src="../js/dashboard.js" ></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles/filter.scss" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Filter</h1>
+            <button id="btn-logout" class="btn btn-info">logut</button>
+        </header>
+        <main>
+            <div>
+                <div id="search-container">
+                    <input
+                        type="search"
+                        id="search-input"
+                        placeholder="Search your Coder here"
+                    />
+                    <button id="search">Search</button>
+                </div>
+                <div id="buttons">
+                    <button class="button-tag">
+                        All
+                    </button>
+                    <button class="button-tag">
+                        Frontend
+                    </button>
+                    <button class="button-tag">
+                        Backend
+                    </button>
+                    <button class="button-tag">
+                        Fullstack
+                    </button>
+                    <button class="button-tag">
+                        Data
+                    </button>
+                </div>
+                <div id="products">
+                    
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Riwi. All rights reserved</p>
+        </footer>
+        <script type="module" src="../js/dashboard.js"></script>
+    </body>
 </html>
