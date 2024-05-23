@@ -7,6 +7,12 @@
     --letra: font-family: ubuntu;
     --colorSeccion2: #f9f9ff;
     --colorFondo: #F5F5F5;
+    --basic-color1: #6675F7;
+    --basic-color2: #57007b;
+}
+
+.button-submit {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
 }
 
 #main {
@@ -17,7 +23,7 @@
 #heroAction {
     display: flex;
     padding: 0px 80px;
-    margin:  0 50px;
+    margin: 0 50px;
 }
 
 #heroAction article {
@@ -29,7 +35,13 @@
 }
 
 #heroAction span {
-    color: var(--colorletra);
+
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
 }
 
 #heroAction p {
@@ -40,7 +52,7 @@
     margin-top: 100px;
 }
 
-.secund{
+.secund {
     background: var(--colorSeccion2);
 
 }
@@ -58,15 +70,21 @@
     background: var(--colorSeccion2);
 }
 
-.cards .row{
+.cards .row {
     padding: 0px 20px 40px 20px;
-    .card {
-        border: 1px solid var(--colorletra);
-    }
+
+//     .card {
+//         border: var(--basic-color2);
+//    }
 }
 
 .cards span {
-    color: var(--colorletra);
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
 }
 
 .cards p {
@@ -77,16 +95,44 @@
     margin: 20px 0px;
 }
 
-.mesage h2{
-    color: var(--colorletra);
+.mesage h2 {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
     font-size: 80px;
-    margin: 145px ;
+    margin: 155px;
 }
+
 .ourServices {
     font-size: 50px;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .textOurServices {
     margin-top: 85px;
+}
+
+.buttonView {
+    margin: 180px;
+    
+    
+}
+
+.card {
+    background-color: var(--colorSeccion2);
+    
+}
+.cardOur {
+    border: none;
+}
+.cardsTech a {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
 }
