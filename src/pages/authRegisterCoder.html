@@ -13,9 +13,10 @@
         <h2>Register coder</h2>
         
         <a href="../../index.html">go home</a> <hr>
-        <a href="./authRegisterContractor.html">Are you contractor? click here </a>
+        <a href="./authRegisterContractor.html">Are you contractor? click here </a> <hr>
+        <a href="./authLoginCoder.html">go login</a> <hr>
         <section>
-            <form action="./authRegisterCoder.html" class="needs-validation" novalidate id="form" method="post">
+            <form action="./authRegisterCoder.html" class="needs-validation" novalidate id="form-coder" method="post">
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" placeholder="name" id="name" name="name" required>
                     <label for="name">name</label>
@@ -50,8 +51,12 @@
                     <label for="name">Age experience</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" placeholder="idioms" id="idioms" name="idioms" required>
-                    <label for="name">Idioms</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                    <label for="password">Password</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="confirm-Password" placeholder="Confirm password">
+                    <label for="confirm-Password">Confirm Password</label>
                 </div>
                 <div>
                     <button type="submit" class="btn btn-primary">Create</button>
@@ -60,7 +65,8 @@
             </form>
         </section>
     </main>
-    <script type="module" src="../js/authRegisterCoder.js"></script>
+    <script type="module" src="../js/authRegister.js"></script>
+    <!-- <script type="module" src="../js/authRegisterCoder.js"></script> -->
 </body>
 
 </html>

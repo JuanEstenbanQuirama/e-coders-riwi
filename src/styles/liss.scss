@@ -2,9 +2,16 @@
 @import "bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Commissioner:wght@100..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Merienda:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yeseva+One&display=swap');
 
+:root {
+    --colorletra: #325fff;
+    --letra: font-family: ubuntu;
+    --colorSeccion2: #f9f9ff;
+    --colorFondo: #F5F5F5;
+}
+
 #main {
     font-family: ubuntu;
-    background-color: #F5F5F5;
+    background-color: var(--colorFondo)
 }
 
 #heroAction {
@@ -22,7 +29,7 @@
 }
 
 #heroAction span {
-    color: #325fff;
+    color: var(--colorletra);
 }
 
 #heroAction p {
@@ -34,7 +41,7 @@
 }
 
 .secund{
-    background: #f9f9ff;
+    background: var(--colorSeccion2);
 
 }
 
@@ -48,21 +55,21 @@
     padding: 0px 100px;
     margin: 40px;
     gap: 40px;
-    background: #f9f9ff;
+    background: var(--colorSeccion2);
 }
 
 .cards .row{
     padding: 0px 20px 40px 20px;
     .card {
-        border: 1px solid #325fff;
+        border: 1px solid var(--colorletra);
     }
 }
 
 .cards span {
-    color: #325fff;
+    color: var(--colorletra);
 }
 
-#cards p {
+.cards p {
     margin-bottom: 50px;
 }
 
@@ -70,5 +77,16 @@
     margin: 20px 0px;
 }
 
-#cards2 {
+.mesage h2{
+    color: var(--colorletra);
+    font-size: 80px;
+    margin: 145px ;
+}
+.ourServices {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.textOurServices {
+    margin-top: 85px;
 }
