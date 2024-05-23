@@ -1,2 +1,26 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
+:root {
+    --basic-color1: #6675F7;
+    --basic-color2: #57007b;
+}
+
+.button-login {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    color: white;
+    padding: 5px 40px;
+}
+
+.navbar-nav-home {
+    width: 90%;
+}
+
+.navbar-nav-home-btn {
+    width: 45%;
+}
+
+.button-register {
+    border: 2px solid #57007b;
+    padding: 5px 40px;
+}
