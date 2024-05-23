@@ -13,6 +13,18 @@
       ],
       "coderAgeExperience": 3,
       "password": "1234"
+    },
+    {
+      "id": "233f",
+      "coderName": "juan",
+      "coderLastName": "juan",
+      "coderEmail": "juan@juan",
+      "coderCountry": "juan",
+      "coderPhone": "123",
+      "coderCore": "juan",
+      "coderSkills": "juan",
+      "coderAgeExperience": "12",
+      "password": "juan"
     }
   ],
   "authContractors": [
@@ -20,10 +32,28 @@
       "id": "1d68",
       "userName": "entrerpise",
       "industry": "Santa",
-      "userEmail": "torisanta@gmail.com",
+      "userEmail": "entrerpise@gmail.com",
       "userCountry": "peru",
       "userContact": 3976893091,
       "passwordUser": "1234"
+    },
+    {
+      "id": "c8ef",
+      "userName": "q",
+      "industry": "q",
+      "userEmail": "q@qqq",
+      "userCountry": "q",
+      "userContact": "1",
+      "passwordUser": "q"
+    },
+    {
+      "id": "2b27",
+      "userName": "qw",
+      "industry": "qw",
+      "userEmail": "qwqw@qw",
+      "userCountry": "qw",
+      "userContact": "12",
+      "passwordUser": "qw"
     }
   ]
 }
