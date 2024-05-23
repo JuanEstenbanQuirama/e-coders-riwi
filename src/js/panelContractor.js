@@ -9,6 +9,7 @@ let contact = document.getElementById("contact")
 let password = document.getElementById("password-user")
 let confirmPassword = document.getElementById("confirm-password-user")
 let userEmailLS = localStorage.getItem("userOnline")
+userEmailLS = JSON.parse(userEmailLS)
 let form = document.getElementsByTagName("form")
 
 
@@ -16,7 +17,6 @@ let form = document.getElementsByTagName("form")
 function getUser() {
     const data = localStorage.getItem('userOnline')
     let data1 = JSON.parse(data)
-    console.log(data1)
     return data1
 }
 
@@ -33,7 +33,7 @@ function infoIntoForm(data) {
 
 infoIntoForm(userInfo)
 
-async function newInformation(name, industry, email, country, contact, password,confirmPassword) {
+async function newInformation(name, industry, email, country, contact, password, confirmPassword) {
     let foundUserEmail = userEmailLS.id
 
     let newInfo = {
@@ -48,7 +48,7 @@ async function newInformation(name, industry, email, country, contact, password,
 
 
 
-    const responseStatus = await fetch(`http://localhost:3000/authContractors/${foundUserEmail}`,
+    let responseStatus = await fetch(`http://localhost:3000/authContractors/${foundUserEmail}`,
         {
             method: 'PUT',
             headers: {
@@ -56,17 +56,20 @@ async function newInformation(name, industry, email, country, contact, password,
             },
             body: JSON.stringify(newInfo)
         })
-
-if ((responseStatus === 200)&& (password.value==confirmPassword.value)) {
-    localStorage.setItem("userOnline", JSON.stringify(newInfo))
-    alert("The information has been succesfully updated")
-}
-else{
-    alert("Password and confirm password are not the same")
-}
+    console.log(responseStatus.status)
+    if ((responseStatus.status == 200) && (password.value == confirmPassword.value)) {
+        console.log(password.value)
+        console.log(confirmPassword.value)
+        localStorage.setItem("userOnline", JSON.stringify(newInfo))
+        alert("The information has been succesfully updated")
+    }
+    else {
+        alert("Password and confirm password are not the same")
+    }
 }
 
 form[0].addEventListener("submit", (event) => {
-    
-    newInformation(name, industry, email, country, contact, password,confirmPassword)
+    newInformation(name, industry, email, country, contact, password, confirmPassword)
+    event.preventDefault()
+
 })
