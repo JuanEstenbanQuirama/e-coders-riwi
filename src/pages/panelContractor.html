@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/panelContractorStyles.scss">
-    <title>Modify contractor information</title>
+    <title>Panel contractor</title>
 </head>
 <body>
     <header class="pt-2 pb-3">
-        <h1 class="text-center">Modify contractor information</h1>
+        <h1 class="text-center">Panel contractor</h1>
     </header>
     <main>
 
-        <section>
+        <section id="modify-info">
+            <h2 class="text-center py-3">Modify current information</h2>
             <form action="./authRegisterContractor.html" class="needs-validation mx-3" novalidate id="form-user" method="post">
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" placeholder="name" id="name" name="name" required>
@@ -46,12 +47,16 @@
                 <div class="d-flex justify-content-center">
                     <button type="submit" class="btn button-submit text-white">Change Information</button>
                 </div>
-                <div>
-                    <a href="./authLoginCoder.html">go coder</a>
-                </div>
             </form>
         </section>
+        <section id="Show-coder-propositions" class="mt-3">
+            <h2 class="text-center">
+                Show all the coder propositions
+            </h2>
+            <article id="showCoderPropositions">
 
+            </article>
+        </section>
     </main>
     <footer>
 

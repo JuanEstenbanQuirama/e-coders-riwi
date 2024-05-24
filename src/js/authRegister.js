@@ -10,7 +10,7 @@ const coderEmail = document.getElementById("email");
 const coderCountry = document.getElementById("country");
 const coderPhone = document.getElementById("phone");
 const coderCore = document.getElementById("core");
-const coderSkills = document.getElementById("skills");
+const coderSkill = document.getElementById("skill");
 const coderAgeExperience = document.getElementById("age");
 const password = document.getElementById("password");
 const confirmPassword = document.getElementById("confirm-Password");
@@ -43,7 +43,7 @@ if (formCoder) { // verifica en qué html estoy
         coderCountry,
         coderPhone,
         coderCore,
-        coderSkills,
+        coderSkill,
         coderAgeExperience,
         password
       );
@@ -82,7 +82,7 @@ async function registerCoder(
   coderCountry,
   coderPhone,
   coderCore,
-  coderSkills,
+  coderSkill,
   coderAgeExperience,
   password
 ) {
@@ -93,7 +93,7 @@ async function registerCoder(
     coderCountry: coderCountry.value,
     coderPhone: coderPhone.value,
     coderCore: coderCore.value,
-    coderSkills: coderSkills.value,
+    coderSkill: coderSkill.value,
     coderAgeExperience: coderAgeExperience.value,
     password: password.value
   };

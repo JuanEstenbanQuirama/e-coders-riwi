@@ -70,3 +70,14 @@ form[0].addEventListener("submit", (event) => {
         newInformation(name, industry, email, country, contact, password, confirmPassword)
         event.preventDefault()
 })
+
+
+async function showCoders() {
+    let response = await fetch('http://localhost:3000/authCoders')
+    let codersData = await response.json()
+
+    
+
+
+}
+showCoders()

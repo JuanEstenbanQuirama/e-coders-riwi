@@ -8,9 +8,7 @@
       "coderCountry": "peru",
       "coderPhone": 3976893091,
       "coderCore": "back",
-      "coderSkills": [
-        "php, nodejs, sql, java, javascript"
-      ],
+      "coderSkills": "php",
       "coderAgeExperience": 3,
       "password": "1234"
     },
@@ -22,11 +20,21 @@
       "coderCountry": "nowere",
       "coderPhone": "123",
       "coderCore": "1234",
-      "coderSkills": [
-        "php, nodejs, sql, java, javascript"
-      ],
+      "coderSkill": "php",
       "coderAgeExperience": "2",
       "password": "1234"
+    },
+    {
+      "id": "7736",
+      "coderName": "a",
+      "coderLastName": "a",
+      "coderEmail": "a@gmail.com",
+      "coderCountry": "a",
+      "coderPhone": "1",
+      "coderCore": "a",
+      "coderSkill": "a",
+      "coderAgeExperience": "2",
+      "password": "12"
     }
   ],
   "authContractors": [
