@@ -12,6 +12,9 @@ let userEmailLS = localStorage.getItem("userOnline")
 userEmailLS = JSON.parse(userEmailLS)
 let form = document.getElementsByTagName("form")
 
+
+let tableInside =document.getElementsById("table-inside")
+
 function getUser() {
     const data = localStorage.getItem('userOnline')
     let data1 = JSON.parse(data)
@@ -75,8 +78,11 @@ form[0].addEventListener("submit", (event) => {
 async function showCoders() {
     let response = await fetch('http://localhost:3000/authCoders')
     let codersData = await response.json()
+    console.log(codersData)
 
-    
+    codersData.forEach(coder => {
+        tableInside.innerHTML =
+    });
 
 
 }
