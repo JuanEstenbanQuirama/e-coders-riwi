@@ -36,8 +36,8 @@
 
 .footer-items {
     display: flex;
-    // border: 1px solid tomato;
     gap: 3rem;
+    padding-left: 5rem;
 }
 
 .redes {
@@ -48,3 +48,22 @@
     
 }
 
+.circle-redes {
+    padding: 5px 9px;
+    border-radius: 100%;
+
+  
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+small {
+    padding-bottom: 1rem;
+}
+
+.footer-items p, .nav-footer {
+    color: gray;
+}
+
+.icon-footer {
+    margin-left: .5rem;
+}
