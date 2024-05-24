@@ -24,12 +24,14 @@
     border: 2px solid #57007b;
     padding: 5px 40px;
 }
+
+// ------FOOTER
 footer {
-    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) ;
+    padding-top: 3rem;
+    background-color: #F8F9FA;
 }
 
 .footer-section {
-    // border: 1px solid gold;    
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -42,7 +44,7 @@ footer {
 
 .redes {
     margin-right: 70px;
-    height: 25vh;
+    height: 20vh;
     align-items: center;
 }
 
@@ -59,10 +61,7 @@ small {
 .footer-items p, .nav-footer {
     color: gray;
 }
-footer {
-    padding-top: 3rem;
-    background-color: #F8F9FA;
-}
+
 .icon-footer {
     margin-left: .5rem;
 }
@@ -70,7 +69,20 @@ footer {
 .container {
     height: 30vh;    
 }
+
 .espaciado{
     padding: 1rem .5rem;
+
+}
+
+// ------login
+.section-login {
+    height: 50vh;
+    
+}
+.section-register {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
 
 }
