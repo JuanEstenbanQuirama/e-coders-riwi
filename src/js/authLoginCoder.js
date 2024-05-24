@@ -1,10 +1,10 @@
-(function () {
-  const userOnline = localStorage.getItem("userOnline");
-  // alert(userOnline)
-  if (userOnline != null) {
-    window.location.href = "./dashboard.html";
-  }
-})();
+// (function () {
+//   const userOnline = localStorage.getItem("userOnline");
+//   // alert(userOnline)
+//   if (userOnline != null) {
+//     window.location.href = "./dashboard.html";
+//   }
+// })();
 
 const formLoginCoder = document.getElementById("form-login-coder");
 const email = document.getElementById("email");

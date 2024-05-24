@@ -1,10 +1,10 @@
-(function () {
-    const userOnline = localStorage.getItem('userOnline')
-    // alert(userOnline)
-    if(userOnline != null) {
-        window.location.href="./dashboard.html"
-    } 
-})()
+// (function () {
+//     const userOnline = localStorage.getItem('userOnline')
+//     // alert(userOnline)
+//     if(userOnline != null) {
+//         window.location.href="./dashboard.html"
+//     } 
+// })()
 
 const formLoginUser = document.getElementById("form-login-user");
 const email = document.getElementById("email");
