@@ -5,6 +5,7 @@
 //         window.location.href="./dashboard.html"
 //     } 
 // })()
+// import "../styles/styles.scss"
 
 const formLoginUser = document.getElementById("form-login-user");
 const email = document.getElementById("email");

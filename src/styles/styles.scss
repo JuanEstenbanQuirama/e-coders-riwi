@@ -24,3 +24,65 @@
     border: 2px solid #57007b;
     padding: 5px 40px;
 }
+
+// ------FOOTER
+footer {
+    padding-top: 3rem;
+    background-color: #F8F9FA;
+}
+
+.footer-section {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.footer-items {
+    display: flex;
+    gap: 3rem;
+    padding-left: 5rem;
+}
+
+.redes {
+    margin-right: 70px;
+    height: 20vh;
+    align-items: center;
+}
+
+.circle-redes {
+    padding: 5px 9px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+small {
+    padding-bottom: 1rem;
+}
+
+.footer-items p, .nav-footer {
+    color: gray;
+}
+
+.icon-footer {
+    margin-left: .5rem;
+}
+
+.container {
+    height: 30vh;    
+}
+
+.espaciado{
+    padding: 1rem .5rem;
+
+}
+
+// ------login
+.section-login {
+    height: 50vh;
+    
+}
+.section-register {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+
+}

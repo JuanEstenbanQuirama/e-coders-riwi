@@ -4,25 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header></header>
-    <main class="container my-3">
-        <h2>Register contractor</h2>
-        <a href="../../index.html">go home</a> <hr>
-        <a href="./authRegisterCoder.html">Are you freelance? click here </a> <hr>
-        <a href="./authLoginCoder.html">go login</a> <hr>
-        <a href="./authLoginUser.html">login contractor</a> <hr>
-        <section>
-            <form action="./authRegisterContractor.html" class="needs-validation" novalidate id="form-user" method="post">
+    <header>
+    </header>
+    <main class=" my-3">
+        <section class="section-register">
+            <form action="./authRegisterContractor.html" class="needs-validation" novalidate id="form-user"
+                method="post">
+                <div class="card-header">
+                    <h3 class="text-center">Register</h3>
+                </div>
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" placeholder="name" id="name" name="name" required>
                     <label for="name">name</label>
                 </div>
                 <div class=" form-floating mb-3">
-                    <input type="text" class="form-control" placeholder="industry" id="industry" name="industry" required>
+                    <input type="text" class="form-control" placeholder="industry" id="industry" name="industry"
+                        required>
                     <label for="industry">Industry</label>
                 </div>
                 <div class=" form-floating mb-3">
@@ -35,7 +37,8 @@
                     <label for="name">Country</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="number" class="form-control" placeholder="contact" id="contact" name="contact" required>
+                    <input type="number" class="form-control" placeholder="contact" id="contact" name="contact"
+                        required>
                     <label for="name">contact</label>
                 </div>
                 <div class="form-floating mb-3">
@@ -43,7 +46,8 @@
                     <label for="password">Password</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="password" class="form-control" id="confirm-Password-user" placeholder="Confirm password">
+                    <input type="password" class="form-control" id="confirm-Password-user"
+                        placeholder="Confirm password">
                     <label for="confirm-Password">Confirm Password</label>
                 </div>
                 <div>
@@ -53,7 +57,11 @@
             </form>
         </section>
     </main>
+    <footer>
+        
+    </footer>
     <script type="module" src="../js/authRegister.js"></script>
+    <script src="../components/navHomeAuth.js"></script>
+    <script src="../components/footerElement.js"></script>
 </body>
-
 </html>
