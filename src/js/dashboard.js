@@ -1,12 +1,12 @@
-(function () { // guardian 
-    const userOnline = localStorage.getItem('userOnline')
+// (function () { // guardian 
+//     const userOnline = localStorage.getItem('userOnline')
     
-    if(userOnline === null) {
-        window.location.href="/"
-    } else {
-        console.log(userOnline);
-    }
-})()
+//     if(userOnline === null) {
+//         window.location.href="/"
+//     } else {
+//         console.log(userOnline);
+//     }
+// })()
 
 const btnLogout = document.getElementById('btn-logout')
 
