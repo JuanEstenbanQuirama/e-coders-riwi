@@ -1,37 +1,57 @@
 (function () { // guardian 
-    const userOnline = localStorage.getItem('userOnline')
-    
-    if(userOnline === null) {
-        window.location.href="/"
+    const userOnline = localStorage.getItem('userOnline');
+
+    if (userOnline === null) {
+        window.location.href = "/";
     } else {
         console.log(userOnline);
-    }
-})()
+    };
+})();
 
-const btnLogout = document.getElementById('btn-logout')
+const btnLogout = document.getElementById('btn-logout');
 
 btnLogout.addEventListener('click', () => {
-    localStorage.removeItem("userOnline")
-    window.location.href="/"
+    localStorage.removeItem("userOnline");
+    window.location.href = "/";
 
-})
+});
 
-function getData () {
-    let res = JSON.parse(localStorage.getItem('userOnline'))
+function getData() {
+    let res = JSON.parse(localStorage.getItem('userOnline'));
     console.log(res);
-}
+};
 
-getData()
+getData();
+
+// Escucha del botón de búsqueda
+// document.getElementById('search').addEventListener('click', async () => {
+//     const getSkills = document.getElementById('search-input').value;
+//     await createCards(getSkills);
+// });
+
+// // Escucha de la tecla 'Enter' en el campo de entrada
+// document.getElementById('search-input').addEventListener('keyup', async (event) => {
+//     if (event.key === 'Enter') {
+//         const getSkills = event.target.value;
+//         await createCards(getSkills);
+//     }
+// });
+
+// async function getSkills(skills) {
+//     const URLCODERS = "http://localhost:3000/authCoders";
+//     const response = await fetch(`${URLCODERS}${skills === 'All' ? '' : `?coderSkills=${skills}`}`);
+//     return await response.json();
+// };
 
 async function getCoders(filterText) {
     const URLCODERS = "http://localhost:3000/authCoders";
     // Forma la URl que me hace el llamado a la API que trae la info de la base de datos
-    const response =  await fetch (`${URLCODERS}${filterText === 'All' ? '' : `?coderCore=${filterText}`}`);
+    const response = await fetch(`${URLCODERS}${filterText === 'All' ? '' : `?coderCore=${filterText}`}`);
     return await response.json();
 };
 // Funcion de filtrado
 async function createCards(filterText) {
-    document.getElementById("products").replaceChildren(); //Me limpia las cards
+    document.getElementById("products").replaceChildren(); // Limpia las cards
     const coders = await getCoders(filterText);
     // Proceso de creación de las cards
     for (let coder of coders) {
@@ -41,22 +61,22 @@ async function createCards(filterText) {
         card.classList.add("card");
 
         card.innerHTML = `
-            <div class="container">
-                <h5 class="name">${coder.coderName.charAt(0).toUpperCase() + coder.coderName.slice(1).toLowerCase() + " " + coder.coderLastName.charAt(0).toUpperCase() + coder.coderLastName.slice(1).toLowerCase()}</h5>
-                <h6 class="core">${coder.coderCore.charAt(0).toUpperCase() + coder.coderCore.slice(1).toLowerCase()}</h6>
+            <div class="card">
+                <figure class="card-img">
+                    <img src="${coder.userImage}" alt="Image coder">
+                </figure>
+                <h5 class="name card-title">${coder.coderName.charAt(0).toUpperCase() + coder.coderName.slice(1).toLowerCase() + " " + coder.coderLastName.charAt(0).toUpperCase() + coder.coderLastName.slice(1).toLowerCase()}</h5>
+                <h6 class="core card-subtitle">${coder.coderCore.charAt(0).toUpperCase() + coder.coderCore.slice(1).toLowerCase()}</h6>
+                <p class="skills">${coder.coderSkills}</p>
+                <hr class="card-divider">
+                <div class="card-footer">
+                    <div class="card-price"><span>$</span> 123.45</div>
+                        <button class="card-btn">contratar</button>
+                    </div>
+                </div>
             </div>
         `;
-
         document.getElementById("products").appendChild(card);
-    
-        // Imagen // Falta
-        // let imgContainer = document.createElement("div");
-        // imgContainer.classList.add("image-container");
-    
-        // let image = document.createElement("img");
-        // image.setAttribute("src", coder.userImage);
-        // imgContainer.appendChild(image);
-        // card.appendChild(imgContainer);
     };
 
 };
@@ -78,12 +98,9 @@ function setActiveBtn(tag) {
             button.classList.add("active");
         } else {
             button.classList.remove("active");
-        }
+        };
     });
 };
 
 setActiveBtn('All');
 createCards('All');
-
-
-// Función de Search por skills, en la misma función de getCoders 

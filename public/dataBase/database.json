@@ -2,6 +2,7 @@
   "authCoders": [
     {
       "id": "59c3",
+      "userImage": "https://picsum.photos/200",
       "coderName": "Toribio",
       "coderLastName": "Santa",
       "coderEmail": "torisanta@gmail.com",
@@ -17,6 +18,7 @@
     {
       "id": "59c3",
       "coderName": "Toribio",
+      "userImage": "https://picsum.photos/200",
       "coderLastName": "Santa",
       "coderEmail": "torisanta@gmail.com",
       "coderCountry": "peru",
@@ -31,6 +33,7 @@
     {
       "id": "59c3",
       "coderName": "Toribio",
+      "userImage": "https://picsum.photos/200",
       "coderLastName": "Santa",
       "coderEmail": "torisanta@gmail.com",
       "coderCountry": "peru",
@@ -45,6 +48,7 @@
     {
       "id": "59c3",
       "coderName": "Toribio",
+      "userImage": "https://picsum.photos/200",
       "coderLastName": "Santa",
       "coderEmail": "torisanta@gmail.com",
       "coderCountry": "peru",
