@@ -27,6 +27,18 @@
       ],
       "coderAgeExperience": "2",
       "password": "1234"
+    },
+    {
+      "id": "d975",
+      "coderName": "",
+      "coderLastName": "",
+      "coderEmail": "torisant1a@gmail.com",
+      "coderCountry": "",
+      "coderPhone": "",
+      "coderCore": "",
+      "coderSkills": "",
+      "coderAgeExperience": "",
+      "password": "12"
     }
   ],
   "authContractors": [
@@ -34,7 +46,7 @@
       "id": "1d68",
       "userName": "mateo",
       "industry": "Santana1",
-      "userEmail": "entrerpise@gmail.com",
+      "userEmail": "enterprise@gmail.com",
       "userCountry": "peru",
       "userContact": "3976893091",
       "passwordUser": "1234"
