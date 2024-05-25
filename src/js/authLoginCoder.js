@@ -9,19 +9,20 @@
 const formLoginCoder = document.getElementById("form-login-coder");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
+import { genericMessageWarning } from "./alerts"
 
 formLoginCoder.addEventListener("submit", async (e) => {
   e.preventDefault();
   const coder = await checkEmail(email);
   if (coder === false) {
-    console.log("coder no registrado");
+    genericMessageWarning('Verify email')
   } else {
     if (coder.password === password.value) {
       console.log("welcome");
       localStorage.setItem("userOnline", JSON.stringify(coder));
       window.location.href = "./dashboard.html";
     } else {
-      alert("validar datos");
+      genericMessageWarning('Verify password')
     }
   }
 });
