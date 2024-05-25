@@ -23,14 +23,18 @@ function addNavHome(){
               <a class="nav-link" href="#">Our Technology</a>
             </li>
           </ul>
-          <ul class="navbar-nav navbar-nav-home-btn d-flex justify-content-end ms-auto">
+          <ul class="navbar-nav navbar-nav-home-btn d-flex justify-content-end ms-auto gap-3">
             <li class="nav-item">
-              <button class="btn button-register me-2"><a href="./authRegisterContractor.html">Sig In</a></button>
+              <a href="./authRegisterContractor.html">
+              <button class="btn button-register me-2">Sig In</button>
+              </a>
             </li>
             <li class="nav-item">
+              <a href="./authLoginUser.html">
               <button class="btn button-login">
-                <a href="./authLoginUser.html">Log In</a>
+                Log In
               </button>
+              </a>
             </li>
           </ul>
         </div>

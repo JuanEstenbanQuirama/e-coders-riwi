@@ -12,9 +12,16 @@ const Toast = Swal.mixin({
     }
 });
 
-export function genericMessageAlert(msg) {
+export function genericMessageSuccess(msg) {
     Toast.fire({
         icon: "success",
+        title: msg
+    });
+}
+
+export function genericMessageWarning(msg) {
+    Toast.fire({
+        icon: "warning",
         title: msg
     });
 }
