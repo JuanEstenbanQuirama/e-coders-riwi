@@ -114,6 +114,14 @@ button {
 //     height: 370px;
 // }
 
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px 0px;
+    justify-content: center;
+    align-items: center;
+}
 
 .card {
     --font-color: #323232;

@@ -1,10 +1,10 @@
-(function () {
-  const userOnline = localStorage.getItem("userOnline");
-  // alert(userOnline)
-  if (userOnline != null) {
-    window.location.href = "./dashboard.html";
-  }
-})();
+// (function () {
+//   const userOnline = localStorage.getItem("userOnline");
+//   // alert(userOnline)
+//   if (userOnline != null) {
+//     window.location.href = "./dashboard.html";
+//   }
+// })();
 
 const formLoginCoder = document.getElementById("form-login-coder");
 const email = document.getElementById("email");
@@ -16,7 +16,7 @@ formLoginCoder.addEventListener("submit", async (e) => {
   if (coder === false) {
     console.log("coder no registrado");
   } else {
-    if (coder.passwordUser === password.value) {
+    if (coder.password === password.value) {
       console.log("welcome");
       localStorage.setItem("userOnline", JSON.stringify(coder));
       window.location.href = "./dashboard.html";

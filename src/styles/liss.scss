@@ -1,0 +1,138 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Commissioner:wght@100..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Merienda:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yeseva+One&display=swap');
+
+:root {
+    --colorletra: #325fff;
+    --letra: font-family: ubuntu;
+    --colorSeccion2: #f9f9ff;
+    --colorFondo: #F5F5F5;
+    --basic-color1: #6675F7;
+    --basic-color2: #57007b;
+}
+
+.button-submit {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+}
+
+#main {
+    font-family: ubuntu;
+    background-color: var(--colorFondo)
+}
+
+#heroAction {
+    display: flex;
+    padding: 0px 80px;
+    margin: 0 50px;
+}
+
+#heroAction article {
+    padding: 50px;
+}
+
+#heroAction h1 {
+    font-size: 50px !important;
+}
+
+#heroAction span {
+
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
+}
+
+#heroAction p {
+    margin: 3rem 0px 3rem 0px;
+}
+
+.subtitle {
+    margin-top: 100px;
+}
+
+.secund {
+    background: var(--colorSeccion2);
+
+}
+
+.secund h2 {
+    padding: 20px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.cards {
+    padding: 0px 100px;
+    margin: 40px;
+    gap: 40px;
+    background: var(--colorSeccion2);
+}
+
+.cards .row {
+    padding: 0px 20px 40px 20px;
+
+//     .card {
+//         border: var(--basic-color2);
+//    }
+}
+
+.cards span {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
+}
+
+.cards p {
+    margin-bottom: 50px;
+}
+
+.cards h5 {
+    margin: 20px 0px;
+}
+
+.mesage h2 {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
+    font-size: 80px;
+    margin: 155px;
+}
+
+.ourServices {
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.textOurServices {
+    margin-top: 85px;
+}
+
+.buttonView {
+    margin: 180px;
+    
+    
+}
+
+.card {
+    background-color: var(--colorSeccion2);
+    
+}
+.cardOur {
+    border: none;
+}
+.cardsTech a {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
+}

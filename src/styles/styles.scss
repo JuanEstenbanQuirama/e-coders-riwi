@@ -1,2 +1,93 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
+
+
+:root {
+    --basic-color1: #6675F7;
+    --basic-color2: #57007b;
+}
+
+.button-login {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    color: white;
+    padding: 5px 40px;
+}
+
+.navbar-nav-home {
+    width: 90%;
+}
+
+.navbar-nav-home-btn {
+    width: 45%;
+}
+
+.button-register {
+    border: 2px solid #57007b;
+    padding: 5px 40px;
+}
+<<<<<<< HEAD
+=======
+
+// ------FOOTER
+footer {
+    padding-top: 3rem;
+    background-color: #F8F9FA;
+}
+
+.footer-section {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.footer-items {
+    display: flex;
+    gap: 3rem;
+    padding-left: 5rem;
+}
+
+.redes {
+    margin-right: 70px;
+    height: 20vh;
+    align-items: center;
+}
+
+.circle-redes {
+    padding: 5px 9px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+small {
+    padding-bottom: 1rem;
+}
+
+.footer-items p, .nav-footer {
+    color: gray;
+}
+
+.icon-footer {
+    margin-left: .5rem;
+}
+
+.container {
+    height: 30vh;    
+}
+
+.espaciado{
+    padding: 1rem .5rem;
+
+}
+
+// ------login
+.section-login {
+    height: 50vh;
+    
+}
+.section-register {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+
+}
+>>>>>>> 7cf87efbcbe70e531b556b6697fe0258faf1d0aa

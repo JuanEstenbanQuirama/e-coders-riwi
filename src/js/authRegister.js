@@ -49,7 +49,7 @@ if (formCoder) { // verifica en qué html estoy
       );
       alert("go login");
       // window.location.href = "",
-      window.location.href = './dashboard.html'
+      window.location.href = './authLoginCoder.html'
       await getData();
     } else {
       alert("Verificar los campos");
@@ -66,7 +66,7 @@ if (formUser) { // verifica en qué html estoy
       await registerUser(userName, industry, userEmail, userCountry, userContact, passwordUser );
       alert("go login");
       // window.location.href = "",
-      window.location.href = './dashboard.html'
+      window.location.href = './authLoginUser.html'
       await getData();
     } else {
       alert("Verificar los campos");

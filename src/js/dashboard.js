@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (function () { // guardian 
     const userOnline = localStorage.getItem('userOnline');
 
@@ -7,6 +8,17 @@
         console.log(userOnline);
     };
 })();
+=======
+// (function () { // guardian 
+//     const userOnline = localStorage.getItem('userOnline')
+    
+//     if(userOnline === null) {
+//         window.location.href="/"
+//     } else {
+//         console.log(userOnline);
+//     }
+// })()
+>>>>>>> 3474ad64b3fe099d462d4094fba0e1b927dfa6e6
 
 const btnLogout = document.getElementById('btn-logout');
 
@@ -71,7 +83,7 @@ async function createCards(filterText) {
                 <hr class="card-divider">
                 <div class="card-footer">
                     <div class="card-price"><span>$</span> 123.45</div>
-                        <button class="card-btn">contratar</button>
+                        <button class="card-btn">Get in touch</button>
                     </div>
                 </div>
             </div>

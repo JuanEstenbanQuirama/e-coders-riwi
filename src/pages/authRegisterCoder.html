@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <title>Document</title>
 </head>
 
 <body>
     <header></header>
-    <main class="container my-3">
-        <h2>Register coder</h2>
-        
-        <a href="../../index.html">go home</a> <hr>
-        <a href="./authRegisterContractor.html">Are you contractor? click here </a> <hr>
-        <a href="./authLoginCoder.html">go login</a> <hr>
-        <section>
+    <main>
+        <section class="section-register ">
             <form action="./authRegisterCoder.html" class="needs-validation" novalidate id="form-coder" method="post">
+                <div class="card-header">
+                    <h3 class="text-center">Register Coder</h3>
+                </div>
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" placeholder="name" id="name" name="name" required>
                     <label for="name">name</label>
@@ -61,12 +61,17 @@
                 <div>
                     <button type="submit" class="btn btn-primary">Create</button>
                     <button type="reset" class="btn btn-danger">Clear</button>
+                    <a href="./authLoginCoder.html">go login coder</a>
                 </div>
             </form>
         </section>
     </main>
+    <footer>
+
+    </footer>
     <script type="module" src="../js/authRegister.js"></script>
-    <!-- <script type="module" src="../js/authRegisterCoder.js"></script> -->
+    <script src="../components/navHomeAuth.js"></script>
+    <script src="../components/footerElement.js"></script>
 </body>
 
 </html>
