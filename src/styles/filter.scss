@@ -4,278 +4,139 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 :root {
-    --basic-color1: #6675F7;
-    --basic-color2: #57007b;
-    --basic-color3: #656565;
+  --basic-color1: #6675F7;
+  --basic-color2: #57007b;
+  --basic-color3: #656565;
+  --basic-color4: #323232;
 }
 
 body {
-    text-align: center;
-    background-color: #f5f8ff;
-    font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  background-color: #f5f8ff;
+  font-family: "Ubuntu", sans-serif;
 }
 
 #search-input {
-    margin: 1.5rem 0rem;
+  margin: 1.5rem 0rem;
 }
 
 #search-container input {
-    border: none;
-    background-color: transparent;
-    width: 30%;
-    border-bottom: 2px solid #110f29;
-    padding: 1rem 0.3rem;
+  border: none;
+  background-color: transparent;
+  width: 30%;
+  border-bottom: 2px solid #110f29;
+  padding: 1rem 0.3rem;
 }
 
 button {
-    cursor: pointer !important;
+  cursor: pointer !important;
 }
 
 #btn-logout {
-    padding: 10px;
-    background-color: var(--basic-color2);
-    font-weight: bold;
-    color: #ffffff;
-    border-radius: 10px;
-    border: none;
+  padding: 10px;
+  background-color: var(--basic-color2);
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+}
+
+#search-container {
+  text-align: center;
+  margin-top: 30px;
 }
 
 #search-container input:focus {
-    outline: none;
-    border-bottom-color: var(--basic-color2);
+  outline: none;
+  border-bottom-color: var(--basic-color2);
 }
 
 #search-container button {
-    padding: 1rem 2rem;
-    background-color: var(--basic-color2);
-    font-weight: bold;
-    color: #ffffff;
-    border-radius: 10px;
-    border: none;
+  padding: 1rem 2rem;
+  background-color: var(--basic-color2);
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
 }
 
 .button-tag {
-    border: 2px solid var(--basic-color2);
-    font-weight: bold;
-    padding: 1rem 2rem;
-    border-radius: 3em;
-    background-color: transparent;
-    color: var(--basic-color2);
+  border: 2px solid var(--basic-color2);
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 3em;
+  background-color: transparent;
+  color: var(--basic-color2);
+}
+
+#buttons {
+  text-align: center;
 }
 
 .active {
-    background-color: var(--basic-color2);
-    color: #ffffff;
+  background-color: var(--basic-color2);
+  color: #ffffff;
 }
 
-// #products {
-//     display: flex;
-//     flex-wrap: wrap;
-//     gap: 50px;
-//     margin: 50px 0px;
-//     justify-content: center;
-//     align-items: center;
-// }
-
-// .card img {
-//     width: 100%;
-//     border-radius: 1rem 1rem 0rem 0rem;
-// }
-
-// .card {
-//     background-color: #ffffff;
-//     margin-top: 1rem;
-//     border-radius: 1rem;
-//     box-shadow: 9px 12px 15px 9px rgba(0,0,0,0.1);
-//     cursor: pointer;
-//     /* transition:  2s ease; */
-// }
-
-// .container {
-//     width: 15rem;
-// }
-
-// .skills {
-//     margin: 20px;
-//     color: var(--basic-color3);
-// }
-
-// .card h5 {
-//     font-size: 20px;
-// }
-
-// .card h6 {
-//     font-size: 1rem;
-// }
-
-// .card:hover {
-//     /* transition:  2s ease; */
-//     width: 350px;
-//     height: 370px;
-// }
-
 #products {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    margin: 50px 0px;
-    justify-content: center;
-    align-items: center;
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
-    --font-color: #323232;
-    --font-color-sub: #666;
-    --bg-color: #fff;
-    --main-color: #323232;
-    --main-focus: #2d8cf0;
-    width: 230px;
-    height: 300px;
-    background: var(--bg-color);
-    border: 2px solid var(--main-color);
-    box-shadow: 4px 4px var(--main-color);
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 20px;
-    gap: 10px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  
-  .card:last-child {
-    justify-content: flex-end;
-  }
-  
-  .card-img {
-      /* clear and add new css */
-    transition: all 0.5s;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .card-img .img {
-   /* delete */
-    transform: scale(1);
-    position: relative;
-    box-sizing: border-box;
-    width: 100px;
-    height: 100px;
-    border-top-left-radius: 80px 50px;
-    border-top-right-radius: 80px 50px;
-    border: 2px solid black;
-    background-color: #228b22;
-    background-image: linear-gradient(to top,transparent 10px,rgba(0,0,0,0.3) 10px,rgba(0,0,0,0.3) 13px,transparent 13px);
-  }
-  
-  .card-img .img::before {
-   /* delete */
-    content: '';
-    position: absolute;
-    width: 65px;
-    height: 110px;
-    margin-left: -32.5px;
-    left: 50%;
-    bottom: -4px;
-    background-repeat: no-repeat;
-    background-image: radial-gradient(ellipse at center,rgba(0,0,0,0.7) 30%,transparent 30%),linear-gradient(to top,transparent 17px,rgba(0,0,0,0.3) 17px,rgba(0,0,0,0.3) 20px,transparent 20px),linear-gradient(to right,black 2px,transparent 2px),linear-gradient(to left,black 2px,transparent 2px),linear-gradient(to top,black 2px,#228b22 2px);
-    background-size: 60% 10%,100% 100%,100% 65%,100% 65%,100% 50%;
-    background-position: center 3px,center bottom,center bottom,center bottom,center bottom;
-    border-radius: 0 0 4px 4px;
-    z-index: 2;
-  }
-  
-  .card-img .img::after {
-   /* delete */
-    content: '';
-    position: absolute;
-    box-sizing: border-box;
-    width: 28px;
-    height: 28px;
-    margin-left: -14px;
-    left: 50%;
-    top: -13px;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(80deg,#ffc0cb 45%,transparent 45%),linear-gradient(-175deg,#ffc0cb 45%,transparent 45%),linear-gradient(80deg,rgba(0,0,0,0.2) 51%,rgba(0,0,0,0) 51%),linear-gradient(-175deg,rgba(0,0,0,0.2) 51%,rgba(0,0,0,0) 51%),radial-gradient(circle at center,#ffa6b6 45%,rgba(0,0,0,0.2) 45%,rgba(0,0,0,0.2) 52%,rgba(0,0,0,0) 52%),linear-gradient(45deg,rgba(0,0,0,0) 48%,rgba(0,0,0,0.2) 48%,rgba(0,0,0,0.2) 52%,rgba(0,0,0,0) 52%),linear-gradient(65deg,rgba(0,0,0,0) 48%,rgba(0,0,0,0.2) 48%,rgba(0,0,0,0.2) 52%,rgba(0,0,0,0) 52%),linear-gradient(22deg,rgba(0,0,0,0) 48%,rgba(0,0,0,0.2) 48%,rgba(0,0,0,0.2) 54%,rgba(0,0,0,0) 54%);
-    background-size: 100% 100%,100% 100%,100% 100%,100% 100%,100% 100%,100% 75%,100% 95%,100% 60%;
-    background-position: center center;
-    border-top-left-radius: 120px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 70px;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    transform: rotate(45deg);
-    z-index: 1;
-  }
-  
-  .card-title {
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    color: var(--font-color);
-  }
-  
-  .card-subtitle {
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--font-color-sub);
-  }
-  
-  .card-divider {
-    width: 100%;
-    border: 1px solid var(--main-color);
-    border-radius: 50px;
-  }
-  
-  .card-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .card-price {
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--font-color);
-  }
-  
-  .card-price span {
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--font-color-sub);
-  }
-  
-  .card-btn {
-    height: 35px;
-    background: var(--bg-color);
-    border: 2px solid var(--main-color);
-    border-radius: 5px;
-    padding: 0 15px;
-    transition: all 0.3s;
-  }
-  
-  .card-btn svg {
-    width: 100%;
-    height: 100%;
-    fill: var(--main-color);
-    transition: all 0.3s;
-  }
-  
-  .card-img:hover {
-    transform: translateY(-3px);
-  }
-  
-  .card-btn:hover {
-    border: 2px solid var(--main-focus);
-  }
-  
-  .card-btn:hover svg {
-    fill: var(--main-focus);
-  }
-  
-  .card-btn:active {
-    transform: translateY(3px);
-  }
-  
+  min-height: 260px;
+  max-height: 260px;
+  width: 230px;
+  -webkit-box-shadow: 10px 10px 29px 0px rgba(173,173,173,0.9);
+  -moz-box-shadow: 10px 10px 29px 0px rgba(173,173,173,0.9);
+  box-shadow: 10px 10px 29px 0px rgba(173,173,173,0.5);
+  border-radius: 15px;
+  padding: 20px;
+  gap: 10px;
+}
+
+.card-img {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-subtitle {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-footer {
+  background-color: #ffffff !important;
+  display: flex;
+  align-items: center;
+}
+
+.card-btn {
+  width: 100rem;
+  background-color: transparent;
+  border: 2px solid var(--basic-color3);
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.3s;
+}
+
+.card-btn:hover {
+  border: 2px solid var(--basic-color2);
+  background-color: var(--basic-color2);
+  color: #ffffff;
+}
+
+.card-btn:active {
+  transform: translateY(3px);
+}

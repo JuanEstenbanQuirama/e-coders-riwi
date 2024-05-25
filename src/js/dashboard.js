@@ -1,14 +1,5 @@
-<<<<<<< HEAD
-(function () { // guardian 
-    const userOnline = localStorage.getItem('userOnline');
 
-    if (userOnline === null) {
-        window.location.href = "/";
-    } else {
-        console.log(userOnline);
-    };
-})();
-=======
+
 // (function () { // guardian 
 //     const userOnline = localStorage.getItem('userOnline')
     
@@ -18,7 +9,7 @@
 //         console.log(userOnline);
 //     }
 // })()
->>>>>>> 3474ad64b3fe099d462d4094fba0e1b927dfa6e6
+
 
 const btnLogout = document.getElementById('btn-logout');
 
@@ -71,9 +62,9 @@ async function createCards(filterText) {
         // Card
         let card = document.createElement("div");
         card.classList.add("card");
-
+        card.innerHTML = ``
         card.innerHTML = `
-            <div class="card">
+            <article class="container">
                 <figure class="card-img">
                     <img src="${coder.userImage}" alt="Image coder">
                 </figure>
@@ -82,11 +73,9 @@ async function createCards(filterText) {
                 <p class="skills">${coder.coderSkills}</p>
                 <hr class="card-divider">
                 <div class="card-footer">
-                    <div class="card-price"><span>$</span> 123.45</div>
-                        <button class="card-btn">Get in touch</button>
-                    </div>
+                    <button class="card-btn">Get in touch</button>
                 </div>
-            </div>
+            </article>
         `;
         document.getElementById("products").appendChild(card);
     };
