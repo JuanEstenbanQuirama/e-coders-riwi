@@ -1,6 +1,6 @@
 import "../styles/styles.scss"; // Import our custom CSS
 import * as bootstrap from "bootstrap"; // Import all of Bootstrap's JS
-import { genericMessageAlert } from "./alerts";
+import { genericMessageWarning } from "./alerts";
 
 // Caputrar datos coders
 const formCoder = document.getElementById("form-coder");
@@ -29,51 +29,53 @@ const confirmPasswordUser = document.getElementById("confirm-Password-user");
 const URLCODERS = "http://localhost:3000/authCoders";
 const URLUSERS = "http://localhost:3000/authContractors";
 
-
 if (formCoder) { // verifica en qué html estoy 
   formCoder.addEventListener("submit", async (e) => { // escuchar el boton sumbit del formulario coders
     e.preventDefault();
     const emailAvailable = await checkEmail(coderEmail); // confirmar que no existe en la base
-    const passwordConfirm = checkPasswords(password, confirmPassword); //confirmar pasword igual
-    if (passwordConfirm === true && emailAvailable === true) {
-      await registerCoder(
-        coderName,
-        coderLastName,
-        coderEmail,
-        coderCountry,
-        coderPhone,
-        coderCore,
-        coderSkills,
-        coderAgeExperience,
-        password
-      );
-      alert("go login");
-      // window.location.href = "",
-      window.location.href = './authLoginCoder.html'
-      await getData();
+    if (emailAvailable === false) {
+      genericMessageWarning('Verify email')
     } else {
-      alert("Verificar los campos");
+      const passwordConfirm = checkPasswords(password, confirmPassword); //confirmar pasword igual
+      if (passwordConfirm === true) {
+        await registerCoder(
+          coderName,
+          coderLastName,
+          coderEmail,
+          coderCountry,
+          coderPhone,
+          coderCore,
+          coderSkills,
+          coderAgeExperience,
+          password
+        );
+        await getData();
+        window.location.href = './authLoginCoder.html'
+      } else {
+        genericMessageWarning('Verify password')
+      }
     }
   });
 }
 
 if (formUser) { // verifica en qué html estoy 
-  formUser.addEventListener("submit", async (event) => { // escuchar el boton sumbit del formulario users
-    event.preventDefault();
-    const emailAvailable = await checkEmailUser(userEmail); 
-    const passwordConfirm = checkPasswords(passwordUser, confirmPasswordUser);
-    if(passwordConfirm ===true && emailAvailable === true) {
-      await registerUser(userName, industry, userEmail, userCountry, userContact, passwordUser );
-      alert("go login");
-      // window.location.href = "",
-      window.location.href = './authLoginUser.html'
-      await getData();
+  formUser.addEventListener("submit", async (e) => { // escuchar el boton sumbit del formulario users
+    e.preventDefault();
+    const emailAvailable = await checkEmailUser(userEmail);
+    if (emailAvailable === false) {
+      genericMessageWarning('Verify email')
     } else {
-      alert("Verificar los campos");
+      const passwordConfirm = checkPasswords(passwordUser, confirmPasswordUser);
+      if (passwordConfirm === true) {
+        await registerUser(userName, industry, userEmail, userCountry, userContact, passwordUser);
+        await getData();
+        window.location.href = './authLoginUser.html'
+      } else {
+        genericMessageWarning('Verify password')
+      }
     }
   });
 }
-
 // Register coder
 async function registerCoder(
   coderName,

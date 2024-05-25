@@ -26,8 +26,7 @@
     border: 2px solid #57007b;
     padding: 5px 40px;
 }
-<<<<<<< HEAD
-=======
+
 
 // ------FOOTER
 footer {
@@ -44,18 +43,21 @@ footer {
     display: flex;
     gap: 3rem;
     padding-left: 5rem;
+    flex-wrap: wrap;
 }
 
 .redes {
     margin-right: 70px;
     height: 20vh;
     align-items: center;
+    
 }
 
 .circle-redes {
     padding: 5px 9px;
     border-radius: 100%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 small {
@@ -90,4 +92,4 @@ small {
     padding: 0 1rem;
 
 }
->>>>>>> 7cf87efbcbe70e531b556b6697fe0258faf1d0aa
+
