@@ -118,6 +118,5 @@ async function deleteCoder(idDelete){
     })
 }
 
-
-deleteContact()
 showCoders()
+deleteContact()
