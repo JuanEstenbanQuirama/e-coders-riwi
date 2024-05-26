@@ -12,6 +12,8 @@ let userEmailLS = localStorage.getItem("userOnline")
 userEmailLS = JSON.parse(userEmailLS)
 let form = document.getElementsByTagName("form")
 
+let tableInside = document.getElementById("table-inside")
+
 function getUser() {
     const data = localStorage.getItem('userOnline')
     let data1 = JSON.parse(data)
@@ -70,3 +72,50 @@ form[0].addEventListener("submit", (event) => {
         newInformation(name, industry, email, country, contact, password, confirmPassword)
         event.preventDefault()
 })
+
+
+async function showCoders() {
+    let response = await fetch('http://localhost:3000/authCoders')
+    let codersData = await response.json()
+    console.log(codersData)
+    tableInside.innerHTML = ""
+    codersData.forEach((coder) => {
+        tableInside.innerHTML +=`
+        <tr>
+        <th scope="row">${coder.id}
+        <td>${coder.coderName}</td>
+        <td>${coder.coderLastName}</td>
+        <td>${coder.coderEmail}</td>
+        <td>${coder.coderCountry}</td>
+        <td>${coder.coderPhone}</td>
+        <td>${coder.coderCore}</td>
+        <td>${coder.coderSkill}</td>
+        <td>${coder.coderAgeExperience}</td>
+        <td>
+        <button type="button" data-id="${coder.id}" class="btn btn-primary">Contact</button>
+        <button type="button" data-id="${coder.id}" class="btn btn-danger">Delete</button>
+
+        </td>
+        </tr>`
+    });
+}
+
+
+function deleteContact() {
+    tableInside.addEventListener('click',(event)=>{
+        event.preventDefault()
+        if(event.target.classList.contains('btn-danger')){
+            let idDelete = event.target.getAttribute('data-id')
+            deleteCoder(idDelete).then(()=>showCoders())
+        }
+    })
+}
+
+async function deleteCoder(idDelete){
+    await fetch(`http://localhost:3000/authCoders/${idDelete}`,{
+        method: 'DELETE'
+    })
+}
+
+showCoders()
+deleteContact()
