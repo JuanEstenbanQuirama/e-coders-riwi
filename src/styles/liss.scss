@@ -163,3 +163,62 @@
     font-size: 20px;
     margin: 5px;
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* El modal (oculto por defecto) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Contenido del modal */
+.modal-content {
+    background-color: var(--colorFondo);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+/* Botón de cerrar (x) */
+.close {
+    color: #f30606;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    
+}
+.modal h2{
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
+
+    text-align: center;
+}
+.buttonModal{
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    color: var(--colorSeccion2);
+}

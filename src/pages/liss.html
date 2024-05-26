@@ -376,7 +376,28 @@
       </div>
     </section>
 
+    <section>
+      <button id="openModalBtn" class="buttonModal rounded-pill" >Enviar Solicitud</button>
 
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Enviar Solicitud</h2>
+            <form id="requestForm">
+              <p>Confirma los siguientes datos. </p>
+                <label for="name">Nombre de la empresa:</label>
+                <input type="text" class="rounded-pill" id="name" name="name" required><br><br>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" class="rounded-pill" id="email" name="email" required><br><br>
+                <p>Al dar click se enviara un correo electronico al coder con la informacion suministrada por la empresa</p>
+                <div class=" d-flex justify-content-center ">
+                <button type="submit" class="buttonModal rounded-pill" style="font-size: 15px; width: 98px; height: 40px;">Aceptar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </section>
 
 
 
@@ -395,7 +416,7 @@
   <footer>
 
   </footer>
-  <script type="module" src="./src/js/main.js"></script>
+  <script type="module" src="../js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
