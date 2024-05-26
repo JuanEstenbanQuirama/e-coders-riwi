@@ -31,7 +31,7 @@
 }
 
 #heroAction h1 {
-    font-size: 50px !important;
+    font-size: 70px !important;
 }
 
 #heroAction span {
@@ -46,6 +46,7 @@
 
 #heroAction p {
     margin: 3rem 0px 3rem 0px;
+    font-size: 30px;
 }
 
 .subtitle {
@@ -59,7 +60,7 @@
 
 .secund h2 {
     padding: 20px;
-    font-size: 48px;
+    font-size: 68px;
     font-weight: bold;
 }
 
@@ -67,6 +68,9 @@
     padding: 0px 100px;
     margin: 40px;
     gap: 40px;
+    
+}
+.cardscolor{
     background: var(--colorSeccion2);
 }
 
@@ -102,12 +106,12 @@
     background-clip: text;
     /* Para compatibilidad con otros navegadores */
     color: transparent;
-    font-size: 80px;
+    font-size: 100px;
     margin: 155px;
 }
 
 .ourServices {
-    font-size: 50px;
+    font-size: 70px;
     margin-top: 80px;
 }
 
@@ -135,4 +139,27 @@
     background-clip: text;
     /* Para compatibilidad con otros navegadores */
     color: transparent;
+}
+
+//  
+  .card {
+    margin: 0 10px;
+  }
+  .rating i {
+    font-size: 40px;
+  }
+  .carousel .carousel-inner .carousel-item img {
+    opacity: 0.3;
+    transition: opacity 0.5s;
+  }
+.carousel .carousel-inner .carousel-item.active img {
+    opacity: 1;
+  }
+
+.qualification{
+    margin-top: 100px;
+}
+.qualification p{
+    font-size: 20px;
+    margin: 5px;
 }
