@@ -7,30 +7,6 @@
       "coderEmail": "torisanta@gmail.com",
       "coderCountry": "peru",
       "coderPhone": 3976893091,
-      "coderCore": "Backend",
-      "coderSkill": "Rust",
-      "coderAgeExperience": 3,
-      "password": "1234"
-    },
-    {
-      "id": "59c3",
-      "coderName": "Toribio",
-      "coderLastName": "Santa",
-      "coderEmail": "torisanta@gmail.com",
-      "coderCountry": "peru",
-      "coderPhone": 3976893091,
-      "coderCore": "Backend",
-      "coderSkill": "C",
-      "coderAgeExperience": 3,
-      "password": "1234"
-    },
-    {
-      "id": "59c3",
-      "coderName": "Toribio",
-      "coderLastName": "Santa",
-      "coderEmail": "torisanta@gmail.com",
-      "coderCountry": "peru",
-      "coderPhone": 3976893091,
       "coderCore": "Frontend",
       "coderSkill": "HTML",
       "coderAgeExperience": 3,
@@ -64,7 +40,7 @@
   "authContractors": [
     {
       "id": "1d68",
-      "userName": "1fdsfasdfasfdafdafdAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "userName": "mateo",
       "industry": "Santana1",
       "userEmail": "enterprise@gmail.com",
       "userCountry": "peru",

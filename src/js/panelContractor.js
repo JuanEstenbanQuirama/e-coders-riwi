@@ -12,8 +12,7 @@ let userEmailLS = localStorage.getItem("userOnline")
 userEmailLS = JSON.parse(userEmailLS)
 let form = document.getElementsByTagName("form")
 
-
-let tableInside =document.getElementById("table-inside")
+let tableInside = document.getElementById("table-inside")
 
 function getUser() {
     const data = localStorage.getItem('userOnline')

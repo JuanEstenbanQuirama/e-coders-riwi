@@ -10,7 +10,7 @@ const coderEmail = document.getElementById("email");
 const coderCountry = document.getElementById("country");
 const coderPhone = document.getElementById("phone");
 const coderCore = document.getElementById("core");
-const coderSkill = document.getElementById("skill");
+const coderSkills = document.getElementById("skills");
 const coderAgeExperience = document.getElementById("age");
 const password = document.getElementById("password");
 const confirmPassword = document.getElementById("confirm-Password");
@@ -84,7 +84,7 @@ async function registerCoder(
   coderCountry,
   coderPhone,
   coderCore,
-  coderSkill,
+  coderSkills,
   coderAgeExperience,
   password
 ) {
@@ -95,7 +95,7 @@ async function registerCoder(
     coderCountry: coderCountry.value,
     coderPhone: coderPhone.value,
     coderCore: coderCore.value,
-    coderSkill: coderSkill.value,
+    coderSkills: coderSkills.value,
     coderAgeExperience: coderAgeExperience.value,
     password: password.value
   };
