@@ -1,27 +1,43 @@
-<!-- Aqui el filtro -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-    <title>Document</title>
-</head>
-
-<body>
-    <header>
-    </header>
-    <main>
-        <h1>dashboard</h1>
-        <p>Aqui van los filtros</p>
-    </main>
-    <footer>
-    </footer>
-    <script type="module" src="../js/main.js"></script>
-    <script type="module" src="../js/dashboard.js"></script>
-    <script src="../components/navHomeLogined.js"></script>
-    <script src="../components/footerElement.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles/filter.scss" />
+        <title>E-coders</title>
+    </head>
+    <body>
+        <header>
+            <button id="btn-logout" class="btn btn-info">logut</button>
+        </header>
+        <main>
+            <div>
+                <div id="search-container">
+                    <input
+                        type="search"
+                        id="search-input"
+                        placeholder="Search for Coders by Skills"
+                    />
+                    <button id="search">Search</button>
+                </div>
+                <div id="buttons">
+                    <button class="button-tag">All</button>
+                    <button class="button-tag">Frontend</button>
+                    <button class="button-tag">Backend</button>
+                    <button class="button-tag">Fullstack</button>
+                    <button class="button-tag">Data</button>
+                </div>
+                <section id="products">
+                    
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Riwi. All rights reserved</p>
+        </footer>
+        <script type="module" src="../js/main.js"></script>
+        <script type="module" src="../components/navHomeLogined.js"></script>
+        <script type="module" src="../components/footerElement.js"></script>
+        <script type="module" src="../js/dashboard.js"></script>
+    </body>
 </html>

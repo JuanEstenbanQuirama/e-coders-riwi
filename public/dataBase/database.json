@@ -7,7 +7,49 @@
       "coderEmail": "torisanta@gmail.com",
       "coderCountry": "peru",
       "coderPhone": 3976893091,
-      "coderCore": "back",
+      "coderCore": "Backend",
+      "coderSkills": [
+        "php, nodejs, sql, java, javascript"
+      ],
+      "coderAgeExperience": 3,
+      "password": "1234"
+    },
+    {
+      "id": "59c3",
+      "coderName": "Toribio",
+      "coderLastName": "Santa",
+      "coderEmail": "torisanta@gmail.com",
+      "coderCountry": "peru",
+      "coderPhone": 3976893091,
+      "coderCore": "Backend",
+      "coderSkills": [
+        "php, nodejs, sql, java, javascript"
+      ],
+      "coderAgeExperience": 3,
+      "password": "1234"
+    },
+    {
+      "id": "59c3",
+      "coderName": "Toribio",
+      "coderLastName": "Santa",
+      "coderEmail": "torisanta@gmail.com",
+      "coderCountry": "peru",
+      "coderPhone": 3976893091,
+      "coderCore": "Frontend",
+      "coderSkills": [
+        "php, nodejs, sql, java, javascript"
+      ],
+      "coderAgeExperience": 3,
+      "password": "1234"
+    },
+    {
+      "id": "59c3",
+      "coderName": "Toribio",
+      "coderLastName": "Santa",
+      "coderEmail": "torisanta@gmail.com",
+      "coderCountry": "peru",
+      "coderPhone": 3976893091,
+      "coderCore": "Fullstack",
       "coderSkills": [
         "php, nodejs, sql, java, javascript"
       ],
@@ -16,29 +58,15 @@
     },
     {
       "id": "233f",
-      "coderName": "Mateo",
-      "coderLastName": "el teo",
-      "coderEmail": "matew@juan",
-      "coderCountry": "nowere",
-      "coderPhone": "123",
-      "coderCore": "1234",
-      "coderSkills": [
-        "php, nodejs, sql, java, javascript"
-      ],
-      "coderAgeExperience": "2",
+      "userName": "Mateito",
+      "coderLastName": "el teos",
+      "userEmail": "matew20@juan",
+      "userCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Backend",
+      "coderSkills": "php, nodejs, sql, java, javascript",
+      "coderAgeExperience": "3",
       "password": "1234"
-    },
-    {
-      "id": "d975",
-      "coderName": "",
-      "coderLastName": "",
-      "coderEmail": "torisant1a@gmail.com",
-      "coderCountry": "",
-      "coderPhone": "",
-      "coderCore": "",
-      "coderSkills": "",
-      "coderAgeExperience": "",
-      "password": "12"
     }
   ],
   "authContractors": [
@@ -58,6 +86,15 @@
       "userEmail": "1@gmail.com",
       "userCountry": "amaga",
       "userContact": "3",
+      "passwordUser": "1234"
+    },
+    {
+      "id": "5ba3",
+      "userName": "Daniel Cano ",
+      "industry": "Riwi",
+      "userEmail": "dacardonac201@gmail.com",
+      "userCountry": "colombia",
+      "userContact": "3016412034",
       "passwordUser": "1234"
     }
   ]

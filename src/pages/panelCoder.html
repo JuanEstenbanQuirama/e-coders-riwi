@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h2 class="text-center pt-2 pb-3">Panel personal</h2>
+        <h2 class="text-center pt-2 pb-3">Modify Coder information</h2>
     </header>
     <main>
         <section >
@@ -18,8 +18,8 @@
                     <label for="name">Name</label>
                 </div>
                 <div class=" form-floating mb-3">
-                    <input type="text" class="form-control" placeholder="name" id="last-name" name="last-name" required>
-                    <label for="last-name">Last name</label>
+                    <input type="text" class="form-control" placeholder="name" id="lastName" name="lastName" required>
+                    <label for="lastName">Last name</label>
                 </div>
                 <div class=" form-floating mb-3">
                     <input type="email" class="form-control" placeholder="emial" id="email" name="email"
@@ -57,12 +57,18 @@
                 <div class="d-flex justify-content-center">
                     <button type="submit" class="btn button-submit text-white">Submit</button>                
                 </div>
+                <div>
+                    <a href="/index.html">Go Home</a>
+                </div>
             </form>
         </section>
     </main>
     <footer>
 
     </footer>
+    <script type="module" src="../js/main.js"></script>
+    <script type="module" src="../components/navHomeAuth.js"></script>
+    <script type="module" src="../components/footerElement.js"></script>
     <script type="module" src="../js/panelCoder.js"></script>
 </body>
 </html>
