@@ -7,7 +7,7 @@ function addFooter() {
             <div>
               <div class="d-flex gap-3 icon-footer">
                 <div>
-                  <img src="./public/img/ecoderslogo.png" style="width: 50px;" alt="logo">
+                  <img src="../../public/img/ecoderslogo.png" style="width: 50px;" alt="logo">
                 </div>
                 <h5>E-Coders</h4>
               </div>

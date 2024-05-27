@@ -12,7 +12,7 @@
 <body>
     <header></header>
     <main>
-        <section class="section-register ">
+        <section class="section-register inputs-container-general">
             <form action="./authRegisterCoder.html" class="needs-validation" novalidate id="form-coder" method="post">
                 <div class="card-header">
                     <h3 class="text-center">Register Coder</h3>
@@ -59,9 +59,13 @@
                     <label for="confirm-Password">Confirm Password</label>
                 </div>
                 <div>
-                    <button type="submit" class="btn btn-primary">Create</button>
+                    <button type="submit" class="btn button-submit">Create</button>
                     <button type="reset" class="btn btn-danger">Clear</button>
-                    <a href="./authLoginCoder.html">go login coder</a>
+                </div>
+                <div class="card-footer">
+                    <p class="text-center">Do you have an account? <a
+                            href="./authLoginCoder.html">login
+                            here</a>.</p>
                 </div>
             </form>
         </section>
@@ -71,7 +75,7 @@
     </footer>
     <script type="module" src="../js/authRegister.js"></script>
     <script src="../components/navHomeAuth.js"></script>
-    <script src="../components/footerElement.js"></script>
+    <script src="../components/footerElementAuth.js"></script>
 </body>
 
 </html>
