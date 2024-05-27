@@ -46,8 +46,6 @@ async function newInformation(name, industry, email, country, contact, password,
         passwordUser: password.value
     }
 
-
-
     let responseStatus = await fetch(`http://localhost:3000/authContractors/${foundUserEmail}`,
         {
             method: 'PUT',
@@ -82,12 +80,8 @@ async function showCoders() {
     codersData.forEach((coder) => {
         tableInside.innerHTML +=`
         <tr>
-        <th scope="row">${coder.id}
         <td>${coder.coderName}</td>
-        <td>${coder.coderLastName}</td>
         <td>${coder.coderEmail}</td>
-        <td>${coder.coderCountry}</td>
-        <td>${coder.coderPhone}</td>
         <td>${coder.coderCore}</td>
         <td>${coder.coderSkill}</td>
         <td>${coder.coderAgeExperience}</td>
