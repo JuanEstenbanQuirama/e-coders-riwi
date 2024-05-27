@@ -14,13 +14,13 @@ function addNavHome(){
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav navbar-nav-home d-flex justify-content-around">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About us</a>
+              <a class="nav-link active" aria-current="page" href="#aboutus">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#services">Our Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Technology</a>
+              <a class="nav-link" href="#tech">Our Technology</a>
             </li>
           </ul>
           <ul class="navbar-nav navbar-nav-home-btn d-flex justify-content-end ms-auto gap-3">

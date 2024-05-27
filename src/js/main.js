@@ -25,7 +25,7 @@ var span = document.getElementsByClassName("close")[0];
 var form = document.getElementById("requestForm");
 
 
-btn.onclick = function() {
+btn.onclick = function() {     
     modal.style.display = "block";
 }
 
