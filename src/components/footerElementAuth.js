@@ -48,7 +48,8 @@ function addFooter() {
           </div>
           <div style="text-align: center;">
             <hr>
-             <small>© 2023 Copyright by Riwi Developers Team Bravo. All rights reserved.</small></div>
+            <small>© 2024 Copyright by Riwi Developers Team Bravo. All rights reserved.</small>
+          </div>
         </section>
     `
 }

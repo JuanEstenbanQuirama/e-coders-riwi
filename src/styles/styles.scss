@@ -50,14 +50,13 @@ footer {
     margin-right: 70px;
     height: 20vh;
     align-items: center;
-    
 }
 
 .circle-redes {
+    cursor: pointer;
     padding: 5px 9px;
     border-radius: 100%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
 }
 
 small {
@@ -83,7 +82,7 @@ small {
 
 // ------login
 .section-login {
-    height: 50vh;
+    height: 60vh;
     
 }
 .section-register {

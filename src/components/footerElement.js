@@ -34,22 +34,26 @@ function addFooter() {
           </article>
           <div class="d-flex justify-content-end gap-4 redes">
             <div class="circle-redes">
-              <i class="bi bi-facebook"></i>
+              <i class="bi bi-facebook"><a href="https://www.facebook.com/profile.php?id=100091533055794"></a>
+              </i>
             </div>
             <div class="circle-redes">
-              <i class="bi bi-instagram"></i>
+              <i class="bi bi-instagram"><a href="https://www.instagram.com/riwi.io/?hl=es-la"></a></i>
             </div>
             <div class="circle-redes">
-              <i class="bi bi-twitter-x"></i>
+              <i class="bi bi-twitter-x"><a href="https://x.com/"></a>
+              </i>
             </div>
             <div class="circle-redes">
-              <i class="bi bi-linkedin"></i>
+              <i class="bi bi-linkedin"><a href="https://www.linkedin.com/company/riwi-io/posts/?feedView=all"></a></i>
             </div>
           </div>
           <div style="text-align: center;">
             <hr>
-             <small>© 2023 Copyright by Riwi Developers Team Bravo. All rights reserved.</small></div>
+            <small>© 2024 Copyright by Riwi Developers Team Bravo. All rights reserved.</small>
+          </div>
         </section>
+        
     `
 }
 

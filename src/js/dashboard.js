@@ -46,12 +46,11 @@ document.addEventListener('DOMContentLoaded', () => {
             card.innerHTML = `
             <article class="container">
                 <figure class="card-img">
-                    <img src="${coder.userImage}" alt="Image coder">
+                    <img src="${coder.coderImage}" alt="Image coder">
                 </figure>
                 <h5 class="name card-title">${coder.coderName.charAt(0).toUpperCase() + coder.coderName.slice(1).toLowerCase() + " " + coder.coderLastName.charAt(0).toUpperCase() + coder.coderLastName.slice(1).toLowerCase()}</h5>
-                <h6 class="core card-subtitle">${coder.coderCore.charAt(0).toUpperCase() + coder.coderCore.slice(1).toLowerCase()}</h6>
-                <p class="skills">${coder.coderSkills}</p>
-                <hr class="card-divider">
+                <h6 class="core card-subtitle mb-2">${coder.coderCore.charAt(0).toUpperCase() + coder.coderCore.slice(1).toLowerCase()}</h6>
+                <p class="skills text-center">${coder.coderSkills}</p>
                 <div class="card-footer">
                     <button class="card-btn">Get in touch</button>
                 </div>
