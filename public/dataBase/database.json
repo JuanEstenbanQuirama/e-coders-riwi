@@ -7,7 +7,31 @@
       "coderEmail": "matew20@juan",
       "coderCountry": "Colombia",
       "coderPhone": "12345",
+      "coderCore": "Frontend",
+      "coderSkill": "javascript",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderName": "Mateito",
+      "coderLastName": "el teos",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
       "coderCore": "Data",
+      "coderSkill": "javascript",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderName": "Mateito",
+      "coderLastName": "el teos",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Backend",
       "coderSkill": "javascript",
       "coderAgeExperience": "3",
       "password": "1234"
