@@ -1,18 +1,6 @@
 {
   "authCoders": [
     {
-      "id": "233w",
-      "coderName": "juan",
-      "coderLastName": "juan",
-      "coderEmail": "juan@juan",
-      "coderCountry": "Colombia",
-      "coderPhone": "12345",
-      "coderCore": "Backend",
-      "coderSkill": "javascript",
-      "coderAgeExperience": "3",
-      "password": "1234"
-    },
-    {
       "id": "233g",
       "coderName": "Mateito",
       "coderLastName": "el teos",
@@ -42,6 +30,15 @@
       "userEmail": "1@gmail.com",
       "userCountry": "amaga",
       "userContact": "3",
+      "passwordUser": "1234"
+    },
+    {
+      "id": "e672",
+      "userName": "Daniel",
+      "industry": "Riwi",
+      "userEmail": "dacardonac201@gmail.com",
+      "userCountry": "Colombia",
+      "userContact": "3016412034",
       "passwordUser": "1234"
     }
   ]
