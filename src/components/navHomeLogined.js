@@ -26,6 +26,11 @@ function addNavHome() {
                 </ul>
                 <ul class="navbar-nav navbar-nav-home-btn d-flex justify-content-end ms-auto gap-3">
                     <li class="nav-item">
+                        <a href="./dashboard.html">
+                            <button id="btn-logout" class="btn button-register me-2">coders</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="./authRegisterContractor.html">
                             <button id="btn-logout" class="btn button-register me-2">Logout</button>
                         </a>

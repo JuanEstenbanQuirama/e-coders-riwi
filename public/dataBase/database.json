@@ -1,37 +1,25 @@
 {
   "authCoders": [
     {
-      "id": "59c3",
-      "coderName": "Toribio",
-      "coderLastName": "Santa",
-      "coderEmail": "torisanta@gmail.com",
-      "coderCountry": "peru",
-      "coderPhone": 3976893091,
-      "coderCore": "Frontend",
-      "coderSkill": "HTML",
-      "coderAgeExperience": 3,
-      "password": "1234"
-    },
-    {
-      "id": "59c3",
-      "coderName": "Toribio",
-      "coderLastName": "Santa",
-      "coderEmail": "torisanta@gmail.com",
-      "coderCountry": "peru",
-      "coderPhone": 3976893091,
-      "coderCore": "Fullstack",
-      "coderSkill": "javascript",
-      "coderAgeExperience": 3,
-      "password": "1234"
-    },
-    {
-      "id": "233f",
-      "userName": "Mateito",
-      "coderLastName": "el teos",
-      "userEmail": "matew20@juan",
-      "userCountry": "Colombia",
+      "id": "233w",
+      "coderName": "juan",
+      "coderLastName": "juan",
+      "coderEmail": "juan@juan",
+      "coderCountry": "Colombia",
       "coderPhone": "12345",
       "coderCore": "Backend",
+      "coderSkill": "javascript",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderName": "Mateito",
+      "coderLastName": "el teos",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Data",
       "coderSkill": "javascript",
       "coderAgeExperience": "3",
       "password": "1234"
@@ -55,15 +43,7 @@
       "userCountry": "amaga",
       "userContact": "3",
       "passwordUser": "1234"
-    },
-    {
-      "id": "5ba3",
-      "userName": "Daniel Cano ",
-      "industry": "Riwi",
-      "userEmail": "dacardonac201@gmail.com",
-      "userCountry": "colombia",
-      "userContact": "3016412034",
-      "passwordUser": "1234"
     }
+
   ]
 }

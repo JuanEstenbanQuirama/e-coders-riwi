@@ -52,6 +52,7 @@ async function getCoders(filterText) {
     const response = await fetch(`${URLCODERS}${filterText === 'All' ? '' : `?coderCore=${filterText}`}`);
     return await response.json();
 };
+
 // Funcion de filtrado
 async function createCards(filterText) {
     document.getElementById("products").replaceChildren(); // Limpia las cards
