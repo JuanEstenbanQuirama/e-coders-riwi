@@ -7,38 +7,8 @@
       "coderEmail": "torisanta@gmail.com",
       "coderCountry": "peru",
       "coderPhone": 3976893091,
-      "coderCore": "Backend",
-      "coderSkills": [
-        "php", "nodejs", "sql", "java", "javascript"
-      ],
-      "coderAgeExperience": 3,
-      "password": "1234"
-    },
-    {
-      "id": "59c3",
-      "coderName": "Toribio",
-      "coderLastName": "Santa",
-      "coderEmail": "torisanta@gmail.com",
-      "coderCountry": "peru",
-      "coderPhone": 3976893091,
-      "coderCore": "Backend",
-      "coderSkills": [
-        "nodejs", "sql", "java", "javascript"
-      ],
-      "coderAgeExperience": 3,
-      "password": "1234"
-    },
-    {
-      "id": "59c3",
-      "coderName": "Toribio",
-      "coderLastName": "Santa",
-      "coderEmail": "torisanta@gmail.com",
-      "coderCountry": "peru",
-      "coderPhone": 3976893091,
       "coderCore": "Frontend",
-      "coderSkills": [
-        "php", "nodejs", "sql", "java", "javascript"
-      ],
+      "coderSkill": "HTML",
       "coderAgeExperience": 3,
       "password": "1234"
     },
@@ -50,10 +20,20 @@
       "coderCountry": "peru",
       "coderPhone": 3976893091,
       "coderCore": "Fullstack",
-      "coderSkills": [
-        "php", "nodejs", "java", "javascript"
-      ],
+      "coderSkill": "javascript",
       "coderAgeExperience": 3,
+      "password": "1234"
+    },
+    {
+      "id": "233f",
+      "userName": "Mateito",
+      "coderLastName": "el teos",
+      "userEmail": "matew20@juan",
+      "userCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Backend",
+      "coderSkill": "javascript",
+      "coderAgeExperience": "3",
       "password": "1234"
     }
   ],
