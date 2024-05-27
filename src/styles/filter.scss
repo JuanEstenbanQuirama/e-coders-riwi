@@ -45,6 +45,10 @@ button {
   border-bottom-color: var(--basic-color3);
 }
 
+img {
+  border-radius: 50%;
+}
+
 #search-container button {
   padding: 1rem 2rem;
   background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
@@ -80,11 +84,12 @@ button {
   margin: 50px auto;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .card {
-  min-height: 260px;
-  max-height: 260px;
+  min-height: 350px;
+  max-height: 350px;
   width: 230px;
   -webkit-box-shadow: 10px 10px 29px 0px rgba(173,173,173,0.9);
   -moz-box-shadow: 10px 10px 29px 0px rgba(173,173,173,0.9);
@@ -117,12 +122,15 @@ button {
 }
 
 .card-btn {
-  width: 100rem;
+  width: 100px;
   background-color: transparent;
   border: 2px solid var(--basic-color3);
   border-radius: 5px;
   padding: 5px;
   transition: all 0.3s;
+  position: absolute;
+  bottom: 0;
+  margin: 20px;
 }
 
 .card-btn:hover {
