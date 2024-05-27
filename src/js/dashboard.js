@@ -1,15 +1,12 @@
+// // (function () { // guardian 
+// //     const userOnline = localStorage.getItem('userOnline')
 
-
-// (function () { // guardian 
-//     const userOnline = localStorage.getItem('userOnline')
-    
-//     if(userOnline === null) {
-//         window.location.href="/"
-//     } else {
-//         console.log(userOnline);
-//     }
-// })()
-
+// //     if(userOnline === null) {
+// //         window.location.href="/"
+// //     } else {
+// //         console.log(userOnline);
+// //     }
+// // })()
 
 const btnLogout = document.getElementById('btn-logout');
 
@@ -25,26 +22,6 @@ function getData() {
 };
 
 getData();
-
-// Escucha del botón de búsqueda
-// document.getElementById('search').addEventListener('click', async () => {
-//     const getSkills = document.getElementById('search-input').value;
-//     await createCards(getSkills);
-// });
-
-// // Escucha de la tecla 'Enter' en el campo de entrada
-// document.getElementById('search-input').addEventListener('keyup', async (event) => {
-//     if (event.key === 'Enter') {
-//         const getSkills = event.target.value;
-//         await createCards(getSkills);
-//     }
-// });
-
-// async function getSkills(skills) {
-//     const URLCODERS = "http://localhost:3000/authCoders";
-//     const response = await fetch(`${URLCODERS}${skills === 'All' ? '' : `?coderSkills=${skills}`}`);
-//     return await response.json();
-// };
 
 async function getCoders(filterText) {
     const URLCODERS = "http://localhost:3000/authCoders";
@@ -80,7 +57,6 @@ async function createCards(filterText) {
         `;
         document.getElementById("products").appendChild(card);
     };
-
 };
 
 const buttons = document.querySelectorAll(".button-tag");
