@@ -4,8 +4,10 @@ function addNavHome(){
     header.innerHTML = `
     <nav class="navbar navbar-expand-lg bg-body-tertiary espaciado">
       <div class="container-fluid">
-        <div>
-          <i class="bi bi-rainbow"></i>
+        <div class="d-flex gap-1">
+          <div>
+            <img src="../../public/img/ecoderslogo.png" style="width: 50px;" alt="logo">
+          </div>
           <a class="navbar-brand" href="/">E-Coders</a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

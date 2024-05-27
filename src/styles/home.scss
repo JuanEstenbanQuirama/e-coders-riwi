@@ -65,7 +65,7 @@
 }
 
 .cards {
-    padding: 0px 100px;
+    padding: 74px 100px;
     margin: 40px;
     gap: 40px;
     
@@ -221,4 +221,7 @@ button {
 .buttonModal{
     background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
     color: var(--colorSeccion2);
+}
+#tech {
+    padding: 15px 0;
 }

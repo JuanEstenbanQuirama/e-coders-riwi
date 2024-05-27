@@ -1,3 +1,12 @@
+(function () { // guardian 
+    const userOnline = localStorage.getItem('userOnline')
+    if(userOnline === null) {
+        window.location.href="/"
+    } else {
+        console.log(userOnline);
+    }
+})()
+
 import '../styles/styles.scss'
 import * as bootstrap from 'bootstrap'
 
