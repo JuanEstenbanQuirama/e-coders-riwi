@@ -92,7 +92,7 @@ async function showCoders() {
         <td>${coder.coderName}</td>
         <td>${coder.coderEmail}</td>
         <td>${coder.coderCore}</td>
-        <td>${coder.coderSkill}</td>
+        <td>${coder.coderSkills}</td>
         <td>${coder.coderAgeExperience}</td>
         <td>
         <button type="button" data-id="${coder.id}" class="btn btn-primary">Contact</button>
