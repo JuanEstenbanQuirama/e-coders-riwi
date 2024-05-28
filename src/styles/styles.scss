@@ -114,3 +114,15 @@ small {
     padding: 3px;
     border-radius: 10px;
 }
+
+#button-login {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    color: white;
+    padding: 5px 40px;
+}
+.space{
+    height: 100px;
+}
+#header{
+    z-index: 100;
+}

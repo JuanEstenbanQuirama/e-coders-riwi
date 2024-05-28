@@ -11,13 +11,18 @@
     --basic-color2: #57007b;
 }
 
+#header {
+    border-bottom:4px solid var(--basic-color2);
+}
+
 .button-submit {
     background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
 }
 
 #main {
     font-family: ubuntu;
-    background-color: var(--colorFondo)
+    background-color: var(--colorFondo);
+    width: 100%;
 }
 
 #heroAction {
@@ -31,7 +36,7 @@
 }
 
 #heroAction h1 {
-    font-size: 70px !important;
+    font-size: 510% !important;
 }
 
 #heroAction span {
@@ -67,10 +72,9 @@
 .cards {
     padding: 74px 100px;
     margin: 40px;
+    margin-right: auto;
+    margin-left: auto;
     gap: 40px;
-    
-}
-.cardscolor{
     background: var(--colorSeccion2);
 }
 
@@ -82,7 +86,7 @@
 //    }
 }
 
-.cards span {
+#about-freelancers{
     background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -107,7 +111,8 @@
     /* Para compatibilidad con otros navegadores */
     color: transparent;
     font-size: 100px;
-    margin: 155px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ourServices {
@@ -224,4 +229,13 @@ button {
 }
 #tech {
     padding: 15px 0;
+}
+
+footer {
+    border-top: 5px solid var(--basic-color1);
+}
+
+#aboutusContent {
+    margin-left: auto;
+    margin-right: auto;
 }
