@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h5 class="name card-title">${coder.coderName.charAt(0).toUpperCase() + coder.coderName.slice(1).toLowerCase() + " " + coder.coderLastName.charAt(0).toUpperCase() + coder.coderLastName.slice(1).toLowerCase()}</h5>
                 <h6 class="core card-subtitle mb-2">${coder.coderCore.charAt(0).toUpperCase() + coder.coderCore.slice(1).toLowerCase()}</h6>
                 <p class="skills text-center">${coder.coderSkills}</p>
-                <div class="card-footer data-coder-id="${coder.id}"">
-                    <button type="button" class="card-btn" id="card-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get in touch</button>
+                <div class="card-footer">
+                    <button type="button" class="card-btn" data-coder-id="${coder.id}" id="card-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get in touch</button>
                 </div>
             </article>
         `;
