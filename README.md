@@ -1,6 +1,7 @@
 # E-coders
 
 ## Descripcion
+Este es un ejercicio practico, realizado para aplicar conocimientos adquiridos en HTML, CSS, JavaScript.
 E-coders es una pagina web creada para ayudar a conectar desarrolladores con empresas. En lugar de que los desarrolladores busquen oportunidades, las empresas son las que hacen el primer contacto cuando encuentran a un desarrollador que se ajusta a su perfil.
 
 ## Caracteristicas principales
@@ -17,9 +18,13 @@ E-coders es una pagina web creada para ayudar a conectar desarrolladores con emp
 
 ## Instalacion y configuracion
 1. Clonar el repositorio
+
+    -git clone
 ```
 https://github.com/JuanEstenbanQuirama/e-coders-riwi.git
 ```
+    -npm install
+    -npm run dev
 ## Uso
 1. Registro en la pagina principal 
 2. Inicio de sesion como desarrollador o como empresa para ver su panel de control
@@ -32,3 +37,6 @@ https://github.com/JuanEstenbanQuirama/e-coders-riwi.git
 - Mateo Montoya Ospina
 - Lisseth Benjumea
 
+## Imagen del proyecto
+
+![alt text](image.png)
