@@ -1,0 +1,245 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Commissioner:wght@100..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Merienda:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yeseva+One&display=swap');
+
+:root {
+    --colorletra: #325fff;
+    --letra: font-family: ubuntu;
+    --colorSeccion2: #f9f9ff;
+    --colorFondo: #F5F5F5;
+    --basic-color1: #6675F7;
+    --basic-color2: #57007b;
+}
+
+#header {
+    border-bottom:4px solid var(--basic-color2);
+}
+
+.button-submit {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+}
+
+#main {
+    font-family: ubuntu;
+    background-color: var(--colorFondo);
+    width: 100%;
+}
+
+#heroAction {
+    display: flex;
+    padding: 0px 80px;
+    margin: 0 50px;
+}
+
+#heroAction article {
+    padding: 50px;
+}
+
+#heroAction h1 {
+    font-size: 510% !important;
+}
+
+#heroAction span {
+
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
+}
+
+#heroAction p {
+    margin: 3rem 0px 3rem 0px;
+    font-size: 30px;
+}
+
+.subtitle {
+    margin-top: 100px;
+}
+
+.secund {
+    background: var(--colorSeccion2);
+
+}
+
+.secund h2 {
+    padding: 20px;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+.cards {
+    padding: 74px 100px;
+    margin: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 40px;
+    background: var(--colorSeccion2);
+}
+
+.cards .row {
+    padding: 0px 20px 40px 20px;
+
+//     .card {
+//         border: var(--basic-color2);
+//    }
+}
+
+#about-freelancers{
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
+}
+
+.cards p {
+    margin-bottom: 50px;
+}
+
+.cards h5 {
+    margin: 20px 0px;
+}
+
+.mesage h2 {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ourServices {
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.textOurServices {
+    margin-top: 85px;
+}
+
+.buttonView {
+    margin: 180px;
+    
+    
+}
+
+.card {
+    background-color: var(--colorSeccion2);
+    
+}
+.cardOur {
+    border: none;
+}
+.cardsTech a {
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
+}
+
+//  
+  .card {
+    margin: 0 10px;
+  }
+  .rating i {
+    font-size: 40px;
+  }
+  .carousel .carousel-inner .carousel-item img {
+    opacity: 0.3;
+    transition: opacity 0.5s;
+  }
+.carousel .carousel-inner .carousel-item.active img {
+    opacity: 1;
+  }
+
+.qualification{
+    margin-top: 100px;
+}
+.qualification p{
+    font-size: 20px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* El modal (oculto por defecto) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Contenido del modal */
+.modal-content {
+    background-color: var(--colorFondo);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+/* Botón de cerrar (x) */
+.close {
+    color: #f30606;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    
+}
+.modal h2{
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* Para compatibilidad con otros navegadores */
+    color: transparent;
+
+    text-align: center;
+}
+.buttonModal{
+    background-image: linear-gradient(90deg, var(--basic-color1), var(--basic-color2));
+    color: var(--colorSeccion2);
+}
+#tech {
+    padding: 15px 0;
+}
+
+footer {
+    border-top: 5px solid var(--basic-color1);
+}
+
+#aboutusContent {
+    margin-left: auto;
+    margin-right: auto;
+}
+#anchor-started {
+    text-decoration: none;
+    color: white;
+}

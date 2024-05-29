@@ -1,0 +1,189 @@
+{
+  "authCoders": [
+    {
+      "id": "233g",
+      "coderImage": "https://randomuser.me/api/portraits/men/4.jpg ",
+      "coderName": "Mateo",
+      "coderLastName": "Ospina",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Frontend",
+      "coderSkills": "javascript",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderImage": "https://randomuser.me/api/portraits/women/3.jpg ",
+      "coderName": "Maria Jose",
+      "coderLastName": "Arango",
+      "coderEmail": "majito@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Fullstack",
+      "coderSkills": "go",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderImage": "https://randomuser.me/api/portraits/men/1.jpg ",
+      "coderName": "Daniel",
+      "coderLastName": "Cano",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Backend",
+      "coderSkills": "sql",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "7938",
+      "coderImage": "https://randomuser.me/api/portraits/men/3.jpg ",
+      "coderName": "Juan Jose",
+      "coderLastName": "Toro",
+      "coderEmail": "juan@juan",
+      "coderCountry": "juan",
+      "coderPhone": "123",
+      "coderCore": "Backend",
+      "coderSkills": "php",
+      "coderAgeExperience": "1",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderImage": "https://randomuser.me/api/portraits/women/71.jpg",
+      "coderName": "Lisseth",
+      "coderLastName": "Benjumea",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Backend",
+      "coderSkills": "express",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderImage": "https://randomuser.me/api/portraits/men/10.jpg ",
+      "coderName": "Samuel",
+      "coderLastName": "Villareal",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Frontend",
+      "coderSkills": "vue",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderImage": "https://randomuser.me/api/portraits/men/5.jpg ",
+      "coderName": "David",
+      "coderLastName": "Ossa",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Data",
+      "coderSkills": "sql",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderImage": "https://randomuser.me/api/portraits/men/64.jpg",
+      "coderName": "Kevin",
+      "coderLastName": "Bedoya",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Fullstack",
+      "coderSkills": "mysql",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderImage": "https://randomuser.me/api/portraits/men/0.jpg",
+      "coderName": "Miguel",
+      "coderLastName": "Ocampo",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Fullstack",
+      "coderSkills": "ruby",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderImage": "https://randomuser.me/api/portraits/men/76.jpg ",
+      "coderName": "Marlon",
+      "coderLastName": "Zapata",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Data",
+      "coderSkills": "mysql",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderImage": "https://randomuser.me/api/portraits/men/50.jpg  ",
+      "coderName": "Nicolas",
+      "coderLastName": "Quiceno",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Frontend",
+      "coderSkills": "typescript",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    },
+    {
+      "id": "233g",
+      "coderImage": "https://randomuser.me/api/portraits/women/77.jpg",
+      "coderName": "Claudia",
+      "coderLastName": "Cardona",
+      "coderEmail": "matew20@juan",
+      "coderCountry": "Colombia",
+      "coderPhone": "12345",
+      "coderCore": "Backend",
+      "coderSkills": "mysql",
+      "coderAgeExperience": "3",
+      "password": "1234"
+    }
+  ],
+  "authContractors": [
+    {
+      "id": "1d68",
+      "userName": "Mateo",
+      "industry": "Riwi",
+      "userEmail": "enterprise@gmail.com",
+      "userCountry": "peru",
+      "userContact": "3976893091",
+      "passwordUser": "1234"
+    },
+    {
+      "id": "5e91",
+      "userName": "Pedro",
+      "industry": "aguacates",
+      "userEmail": "1@gmail.com",
+      "userCountry": "amaga",
+      "userContact": "3",
+      "passwordUser": "1234"
+    },
+    {
+      "id": "e672",
+      "userName": "Daniel",
+      "industry": "Riwi",
+      "userEmail": "dacardonac201@gmail.com",
+      "userCountry": "Colombia",
+      "userContact": "3016412034",
+      "passwordUser": "1234"
+    }
+  ]
+}
