@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function createCards(filterText) {
         document.getElementById("products").replaceChildren(); // Limpia las cards
         const coders = await getCoders(filterText);
+        console.log(coders)
         // Proceso de creación de las cards
         for (let coder of coders) {
 
@@ -52,12 +53,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h6 class="core card-subtitle mb-2">${coder.coderCore.charAt(0).toUpperCase() + coder.coderCore.slice(1).toLowerCase()}</h6>
                 <p class="skills text-center">${coder.coderSkills}</p>
                 <div class="card-footer">
-                    <button class="card-btn">Get in touch</button>
+                    <button type="button" class="card-btn" data-coder-id="${coder.id}" id="card-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get in touch</button>
                 </div>
             </article>
         `;
             document.getElementById("products").appendChild(card);
         };
+        document.querySelectorAll('.card-btn').forEach(button => {
+            button.addEventListener("click", (event) => {
+                let coderId = event.target.getAttribute('data-coder-id');
+                // handleButtonClick(coderId);
+                console.log(coderId)
+            });
+        });
+        // function handleButtonClick(coderId) {
+        //     const coder = coders.find(coder => coder.id === coderId);
+        //     if (coder) {
+        //         console.log(coder); 
+        //     }
+        // }
     };
 
     const buttons = document.querySelectorAll(".button-tag");

@@ -25,10 +25,10 @@ function addNavHome(){
               <a class="nav-link" href="#">Our Technology</a>
             </li>
           </ul>
-          <ul class="navbar-nav navbar-nav-home-btn d-flex justify-content-end ms-auto gap-3">
+          <ul class="navbar-nav navbar-nav-home-btn d-flex justify-content-center ms-auto gap-3">
             <li class="nav-item">
               <a href="./authRegisterContractor.html">
-              <button class="btn button-register me-2">Sig In</button>
+              <button class="btn button-register me-2">Sign In</button>
               </a>
             </li>
             <li class="nav-item">
@@ -72,7 +72,7 @@ function addNavHomeAuth(){
         </ul>
         <ul class="navbar-nav navbar-nav-home-btn d-flex justify-content-end ms-auto">
           <li class="nav-item">
-            <button class="btn button-register me-2"><a href="./authRegisterContractor.html">Sig In</a></button>
+            <button class="btn button-register me-2"><a href="./authRegisterContractor.html">Sign In</a></button>
           </li>
           <li class="nav-item">
             <button class="btn button-login">

@@ -11,7 +11,7 @@ function addFooter() {
                 </div>
                 <h5>E-Coders</h4>
               </div>
-              <p>Together we transform technological <br> industry! </p>
+              <p>Together we transform the technological <br> industry! </p>
             </div>
             <div>
               <h5>Links</h5>
