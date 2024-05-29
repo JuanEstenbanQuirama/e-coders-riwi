@@ -12,6 +12,7 @@ const email = document.getElementById("email");
 const password = document.getElementById("password");
 import { genericMessageWarning } from "./alerts"
 
+//funcion logear 
 formLoginUser.addEventListener('submit', async (e) => {
     e.preventDefault()
     const user = await checkEmail(email)
@@ -28,6 +29,7 @@ formLoginUser.addEventListener('submit', async (e) => {
     }
 })
 
+// función verificar email
 async function checkEmail(email) {
     const res = await fetch(`http://localhost:3000/authContractors?userEmail=${email.value}`); // traemos a todos los users que tengan el email que se ingresó
     const data = await res.json();

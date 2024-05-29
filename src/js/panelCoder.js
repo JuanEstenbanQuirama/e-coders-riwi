@@ -1,15 +1,16 @@
-(function () { // guardian 
-    const userOnline = localStorage.getItem('userOnline')
-    if(userOnline === null) {
-        window.location.href="/"
-    } else {
-        console.log(userOnline);
-    }
-})()
+// (function () { // guardian 
+//     const userOnline = localStorage.getItem('userOnline')
+//     if(userOnline === null) {
+//         window.location.href="/"
+//     } else {
+//         console.log(userOnline);
+//     }
+// })()
 
 import '../styles/styles.scss'
 import * as bootstrap from 'bootstrap'
 
+// Obtener datos
 let name = document.getElementById("name")
 let lastName = document.getElementById("lastName")
 let email = document.getElementById("email")
@@ -24,7 +25,7 @@ let userEmailLS = localStorage.getItem("userOnline")
 userEmailLS = JSON.parse(userEmailLS)
 let form = document.getElementsByTagName("form")
 
-
+// obtener dado del local
 function getUser() {
     const data = localStorage.getItem('userOnline')
     let data1 = JSON.parse(data)
@@ -46,7 +47,7 @@ function infoIntoForm(data) {
 }
 
 infoIntoForm(userInfo)
-
+// función actualizar información coder 
 async function newInformation(name, lastName, email, country, phone, core, skills, age, password, confirmPassword) {
     let foundUserEmail = userEmailLS.id
 
@@ -62,8 +63,6 @@ async function newInformation(name, lastName, email, country, phone, core, skill
         coderAgeExperience: age.value,
         password: password.value
     }
-
-
 
     let responseStatus = await fetch(`http://localhost:3000/authCoders/${foundUserEmail}`,
         {

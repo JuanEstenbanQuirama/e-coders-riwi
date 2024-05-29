@@ -29,7 +29,8 @@ const confirmPasswordUser = document.getElementById("confirm-Password-user");
 const URLCODERS = "http://localhost:3000/authCoders";
 const URLUSERS = "http://localhost:3000/authContractors";
 
-if (formCoder) { // verifica en qué html estoy 
+// función crear coder
+if (formCoder) { // verifica en qué html estoy coder 
   formCoder.addEventListener("submit", async (e) => { // escuchar el boton sumbit del formulario coders
     e.preventDefault();
     const emailAvailable = await checkEmail(coderEmail); // confirmar que no existe en la base
@@ -58,7 +59,8 @@ if (formCoder) { // verifica en qué html estoy
   });
 }
 
-if (formUser) { // verifica en qué html estoy 
+// función crear user
+if (formUser) { // verifica en qué html estoy  user
   formUser.addEventListener("submit", async (e) => { // escuchar el boton sumbit del formulario users
     e.preventDefault();
     const emailAvailable = await checkEmailUser(userEmail);
@@ -76,6 +78,7 @@ if (formUser) { // verifica en qué html estoy
     }
   });
 }
+
 // Register coder
 async function registerCoder(
   coderName,
@@ -134,17 +137,6 @@ async function registerUser(
   });
 }
 
-// Probando los endpoints
-async function getData() {
-  const res = await fetch(URLCODERS);
-  const data = await res.json();
-  const res1 = await fetch(URLUSERS);
-  const data1 = await res1.json();
-  console.log(data);
-  console.log(data1);
-  return data;
-}
-
 // Validate email coder
 async function checkEmail(coderEmail) {
   const res = await fetch(
@@ -180,4 +172,16 @@ function checkPasswords(password, confirmPassword) {
   } else {
     return false;
   }
+}
+
+
+// Probando los endpoints función de ejemplo
+async function getData() {
+  const res = await fetch(URLCODERS);
+  const data = await res.json();
+  const res1 = await fetch(URLUSERS);
+  const data1 = await res1.json();
+  console.log(data);
+  console.log(data1);
+  return data;
 }

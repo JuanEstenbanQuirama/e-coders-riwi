@@ -1,3 +1,4 @@
+// script de alertas
 import Swal from 'sweetalert2';
 
 const Toast = Swal.mixin({

@@ -25,25 +25,25 @@ var span = document.getElementsByClassName("close")[0];
 var form = document.getElementById("requestForm");
 
 
-btn.onclick = function() {     
-    modal.style.display = "block";
-}
+// btn.onclick = function() {     
+//     modal.style.display = "block";
+// }
 
 
-span.onclick = function() {
-    modal.style.display = "none";
-}
+// span.onclick = function() {
+//     modal.style.display = "none";
+// }
 
 
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+// window.onclick = function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// }
 
 
-form.onsubmit = function(event) {
-    event.preventDefault();
-    alert("Solicitud enviada con exito");
-    modal.style.display = "none";
-}
+// form.onsubmit = function(event) {
+//     event.preventDefault();
+//     alert("Solicitud enviada con exito");
+//     modal.style.display = "none";
+// }

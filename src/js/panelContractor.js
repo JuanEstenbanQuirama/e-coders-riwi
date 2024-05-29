@@ -1,15 +1,16 @@
-(function () { // guardian 
-    const userOnline = localStorage.getItem('userOnline')
-    if(userOnline === null) {
-        window.location.href="/"
-    } else {
-        console.log(userOnline);
-    }
-})()
+// (function () { // guardian 
+//     const userOnline = localStorage.getItem('userOnline')
+//     if(userOnline === null) {
+//         window.location.href="/"
+//     } else {
+//         console.log(userOnline);
+//     }
+// })()
 
 import '../styles/styles.scss'
 import * as bootstrap from 'bootstrap'
 
+// capturar info
 let name = document.getElementById("name")
 let industry = document.getElementById("industry")
 let email = document.getElementById("email")
@@ -42,6 +43,7 @@ function infoIntoForm(data) {
 
 infoIntoForm(userInfo)
 
+// Actualizar info
 async function newInformation(name, industry, email, country, contact, password, confirmPassword) {
     let foundUserEmail = userEmailLS.id
 
@@ -80,7 +82,7 @@ form[0].addEventListener("submit", (event) => {
         event.preventDefault()
 })
 
-
+// funcion mostrar conects
 async function showCoders() {
     let response = await fetch('http://localhost:3000/authCoders')
     let codersData = await response.json()
@@ -103,7 +105,7 @@ async function showCoders() {
     });
 }
 
-
+// delete conect
 function deleteContact() {
     tableInside.addEventListener('click',(event)=>{
         event.preventDefault()

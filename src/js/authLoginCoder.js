@@ -11,6 +11,7 @@ const email = document.getElementById("email");
 const password = document.getElementById("password");
 import { genericMessageWarning } from "./alerts"
 
+// función para logear
 formLoginCoder.addEventListener("submit", async (e) => {
   e.preventDefault();
   const coder = await checkEmail(email);
@@ -27,6 +28,7 @@ formLoginCoder.addEventListener("submit", async (e) => {
   }
 });
 
+// función validar si existe el email en la base de datos
 async function checkEmail(email) {
   const res = await fetch(
     `http://localhost:3000/authCoders?coderEmail=${email.value}`
